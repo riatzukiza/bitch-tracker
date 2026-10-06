@@ -46,10 +46,13 @@ dependency tree with only a fake local API surface.
   cache/output roots. No hardlinks/shared writable dependencies or global installs.
 - Emit a small deterministic artifact manifest with source SHA, recipe/toolchain
   identity, relative artifact path/size/hash and license record. Exclude wall-clock
-  time, local absolute paths, host state and manifest self-hash cycles.
+  time, local absolute paths, host state and manifest self-hash cycles. Keep pure
+  manifest validity/identity decisions in the shared portable `.cljc` contract;
+  hashing, filesystem capture and Node packaging remain outer adapters.
 - Copy only the selected distributable artifact and declared public notices to a
   fresh smoke directory. Verify CommonJS `meta => plugin`, metadata and start/stop
-  lifecycle using the current fictional fake-BdApi surface; no source-tree reads,
+  lifecycle using the schema-validated fictional metadata example from BT4.01
+  and the current fake-BdApi surface; no source-tree reads,
   hidden node_modules dependency, network, client profile or messages.
 
 ## Non-goals

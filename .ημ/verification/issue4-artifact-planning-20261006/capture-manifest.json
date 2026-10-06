@@ -110,5 +110,85 @@
     "private_lossless_capture": "read-gates.stderr.b64",
     "encoding": "base64",
     "committed_raw": false
+  },
+  {
+    "capture": "refined-read-board.json",
+    "bytes": 1888,
+    "sha256": "12173f52d794523061517938cfc5d8c0b056423cda158c18f65aad5c510d8f80",
+    "private_lossless_capture": "refined-read-board.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-board.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "refined-read-board.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-build.json",
+    "bytes": 4987,
+    "sha256": "78779839ae9334cd87518b9f52ae682bf1d6751f8f902089841403bffbdb0e41",
+    "private_lossless_capture": "refined-read-build.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-build.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "refined-read-build.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-contract.json",
+    "bytes": 6299,
+    "sha256": "4311e8a5b627e28af7c6b40b8ad121514b5f95a6d2690792eb3099d9c675facf",
+    "private_lossless_capture": "refined-read-contract.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-contract.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "refined-read-contract.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-epic.json",
+    "bytes": 5316,
+    "sha256": "0df62e9fc37151d86ee557607e6bf06ec52feeb3aa32a364dd68db01e6a30272",
+    "private_lossless_capture": "refined-read-epic.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-epic.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "refined-read-epic.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-gates.json",
+    "bytes": 5158,
+    "sha256": "38611f0dc185bffb65b0e91acc9bd4284e23f0cdf36669797dad719cc28c589e",
+    "private_lossless_capture": "refined-read-gates.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "refined-read-gates.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "refined-read-gates.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
   }
 ]

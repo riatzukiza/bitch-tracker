@@ -68,8 +68,12 @@ rewrite, process activation, release publication or deployment is authorized.
   credentials, real event identities, queues and machine-specific paths. Synthetic
   probes produce no sensitive log/capture output. Current corpus absence does
   not waive scanning.
-- Fictional examples have an executed schema and do not inherit real records.
-  A future import needing runtime config is blocked until an explicit fictional
+- The current meta-factory has a minimal fictional
+  `fixtures/betterdiscord-meta.example.json` with an executed owned schema,
+  unconditionally; it does not inherit real records or wait for a future import.
+  Pure schema/classification/manifest decisions stay portable `.cljc` when
+  practical; JSON/Node/I/O/build runners are outer adapters with Clojure-shaped
+  semantic boundaries. A future import needing runtime config is blocked until an explicit fictional
   example/schema exists; no invented transport schema is smuggled into this epic.
 - Two independent clean builds, isolated exported-file smoke and generated-drift/
   release-artifact policy have current-head hosted evidence and owned receipts.

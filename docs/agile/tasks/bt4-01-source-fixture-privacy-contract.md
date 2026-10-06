@@ -46,10 +46,18 @@ examples plus the full-tree privacy scan's positive/negative cases.
 - Record source SHA, license/notice, role, toolchain/recipe identity and expected
   hash for each retained generated artifact. Preserve attribution and immutable
   provenance; no copied unknown-license branch content is allowed.
-- Define a fixture schema for the existing meta-factory smoke metadata. If a
-  future source import requires additional config, author a minimal fictional
-  `.example.json` with its owned schema before importing; do not port legacy
-  config, queue, messages, identifiers or guessed issue6 transport semantics.
+- Author `fixtures/betterdiscord-meta.example.json` unconditionally for the
+  current meta-factory boundary: minimal fictional nonblank `name`, `version`
+  and `description` strings, with an owned schema executed against that file.
+  Reuse it at the fake smoke boundary; this deliverable does not depend on an
+  archive or runtime import. If a future reviewed source import requires additional
+  config, require a separate fictional example and owned schema before importing;
+  do not port legacy config, queue, messages, identifiers or guessed issue6
+  transport semantics.
+- Keep pure fixture schemas, artifact classification and manifest decisions in
+  portable `.cljc` when practical, with Clojure-shaped inputs/results. JSON/files,
+  Git traversal and Node test/scanner/bundler entry points are outer adapters
+  consuming those shared rules; they do not define a parallel JS domain contract.
 - Declare ignore/sanitization policy for runtime configs, queues, credentials,
   local state, sessions, caches and machine-specific links/absolute paths.
   Future source-tree hygiene changes are implementation, not this plan.
@@ -66,8 +74,13 @@ Discord/profile/network actions, release publication and deployment.
   pseudo/config observation separately from historical reports.
 - Each candidate pseudo plugin has one explicit role, license/source record and
   immutable provenance before retention; deterministic output is never hand-edited.
-- Fictional fixture schema actually rejects missing/unknown/wrong-type values
-  according to the reviewed input contract; no real record is reproduced.
+- The current metadata `.example.json` exists independently of any future import,
+  is fictional and minimal, and passes an executed owned schema. Tests actually
+  reject missing/unknown/wrong-type fields according to the reviewed contract;
+  no real record is reproduced.
+- The practical pure schema/classification/manifest rules are shared portable
+  `.cljc`; host runners exercise them through explicit Clojure-shaped boundaries
+  rather than restating them as JavaScript semantics.
 - Negative fixtures cover credential fields, real-event-identity slots, nonblank
   runtime message content, queues, local state and absolute/symlink escapes using
   unmistakably fictional values. Scanner reports only rule/path/count/hash.

@@ -42,7 +42,7 @@ pure-law boundaries later; its live transport/lifecycle feature work is excluded
 | Two clean builds have identical output hashes | BT4.02 independent clean checkout pair at one immutable SHA, compare every selected output byte/hash and provenance. |
 | Built plugin smoke exposes start/stop | BT4.02 exported-file-only CommonJS factory/fake-BdApi smoke outside source/dependency tree, positive and nonzero failure cases. |
 | Generated drift detected or excluded/release artifacts | BT4.01 authoritative-source/generated-role policy, BT4.02 rebuild/output rule, BT4.03 hosted enforcement and qualified artifact handoff. No release publication activated. |
-| Minimal fictional schema-validated example | BT4.01 executed smoke-meta fixture contract; additional runtime config only if a separately reviewed source import requires it, before import, using fictional values and owned schema. No guessed issue6 transport shape. |
+| Minimal fictional schema-validated example | BT4.01 unconditionally adds `fixtures/betterdiscord-meta.example.json` for the current meta-factory, containing minimal fictional nonblank name/version/description strings, and executes its owned schema against that actual file before fake smoke. Additional runtime config remains conditional on a separately reviewed source import, with a separate fictional example/schema before import. No guessed issue6 transport shape. |
 | Source/fixture/archive/build/runtime docs distinguished | BT4.01 role/license/source table and explicit absent-archive observation; BT4.03 evidence records current SHA/raw versions/commands/exits/hashes and scope. |
 
 Pseudo candidate policy: retain only an explicitly licensed/provenanced archive
@@ -67,6 +67,28 @@ Rheos breakdown instead of silently growing it. No dependency on law5/adapters6 
 needed for the current tiny scaffold artifact proof, and their planning admission
 is not inferred from this plan.
 
+## Pure contract and host ownership
+
+The proposed shared artifact law belongs in portable `.cljc` when practical,
+for example `src/bitch_tracker/artifact/law.cljc`: fixture shape checks, artifact
+classification and manifest validity/identity decisions consume and return
+Clojure-shaped data. Corresponding CLJS law tests run through the existing
+Shadow-CLJS test target; pnpm/Shadow ownership remains unchanged. No source files
+or fixture are implemented by this planning PR.
+
+The unconditional future fixture `fixtures/betterdiscord-meta.example.json`
+contains only fictional metadata for the existing name/version/description
+boundary. Its JSON decoding and fake-smoke loading are adapters that execute the
+owned schema, including rejection cases. This is distinct from additional runtime
+config whose need/shape must be established by a future reviewed source import.
+
+The existing `.mjs` bundler/verifier and proposed `.mjs` scanner/manifest/test
+entry points own Node orchestration, hashing, Git/filesystem traversal, JSON
+conversion, process exits and host probes. They consume shared pure rules rather
+than recreate a JavaScript schema/classification/manifest authority. An adapter
+bridge must be explicit and tested at both boundaries; the pure layer depends on
+no Node object, filesystem or process API.
+
 ## Future red/green execution contract
 
 Current declared product commands, not executed by this planning task:
@@ -79,16 +101,19 @@ node scripts/verify-bd-export.mjs
 ```
 
 After planning/readiness, first add actual failing assertions to the existing
-product test and new artifact-contract/probe/smoke runners. Prove schema rejection,
+product test, shared portable-law tests and new artifact-contract/probe/smoke
+runners. Execute the unconditional metadata example schema and prove rejection,
 hidden/release-only synthetic leakage, scanner tool/I/O failure, bad factory/header,
 source-tree-dependent export and stale/mismatched output fail nonzero. Missing
 future files alone are not meaningful red. Then implement minimal shared artifact
 contracts and adapters; finally wire hosted proof. This adds no reaction business
 semantics or real transport runtime.
 
-Proposed new runners (files do not exist yet):
+Current CLJS target for the proposed portable-law tests, plus proposed new host
+runners (new files do not exist yet; Node wrappers exercise shared rules):
 
 ```sh
+pnpm run test:cljs
 node --test test/artifact-contract.test.mjs
 node --test test/artifact-privacy-probes.test.mjs
 node scripts/scan-artifact-boundary.mjs --tracked-tree . --release-tree dist
@@ -113,7 +138,7 @@ Exact install/cache flags must be validated for the chosen tools during admitted
 implementation, not guessed as currently working here.
 
 Smoke copies the distributable alone plus declared public notices to a private
-directory with fake BdApi and minimal fictional meta. It runs without network,
+directory with fake BdApi and the schema-validated fictional metadata example. It runs without network,
 credentials, profile, repository source/build/node_modules access or outgoing
 messages. Existing fake smoke is reusable evidence intent, not current proof of
 that stricter extraction boundary. Freeze generated bytes; timestamps/host labels
