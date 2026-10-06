@@ -27,7 +27,7 @@ No sensitive historical source was accessed or retained. Committed artifacts con
 
 ## Validation and remaining hold
 
-The inherited source/provenance tree stays exact, including all four existing Π files and the relative metadata link. Newly appended receipts are checked with existing `foresight.evidence/receipt-envelope?` plus repo identity; the base has no receipt ledger to rewrite. Full base-to-head diff hygiene and private capture hash reconstruction are verified before peer handoff. These are documentation/preparation checks, not product tests.
+The inherited source/provenance tree stays exact, including all four existing provenance files and the relative metadata link. Newly appended receipts are checked with existing `foresight.evidence/receipt-envelope?` plus repo identity; the base has no receipt ledger to rewrite. Full base-to-head diff hygiene and private capture hash reconstruction are verified before peer handoff. These are documentation/preparation checks, not product tests.
 
 All eight issue4 criteria map to bounded stories in the planning note. Estimates/dependencies remain provisional. Canonical planning qualification and lawful Rheos ready transitions precede real failing assertions, then contracts/build adapters/hosted gates. Existing source-only build and fake smoke commands were inspected but never executed during planning. Future runner files do not exist; their absence is not meaningful red proof. No release, signing, protection, credential setting or process activation is claimed.
 
