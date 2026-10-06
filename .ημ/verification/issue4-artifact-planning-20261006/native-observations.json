@@ -1,0 +1,135 @@
+{
+  "producer": "installed eta-mu/Rheos direct read-task/read-board",
+  "scope": "bounded observation summary; not raw capture or independent board validation",
+  "cards": [
+    {
+      "uuid": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+      "frontmatter": {
+        "uuid": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+        "title": "BT4 — Sanitize and prove deterministic source-only plugin artifacts",
+        "status": "incoming",
+        "type": "epic",
+        "priority": "P1",
+        "points": "8",
+        "labels": "planning, artifacts, privacy, reproducibility",
+        "category": "epics"
+      },
+      "native_exit": 0,
+      "stderr_bytes": 0
+    },
+    {
+      "uuid": "6fe3cf31-866d-4d6b-9c90-0645993cf27c",
+      "frontmatter": {
+        "category": "stories",
+        "labels": "planning, artifacts, privacy, reproducibility",
+        "parent": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+        "type": "story",
+        "points": "3",
+        "title": "BT4.01 — Define source, fixture and artifact sanitation contracts",
+        "priority": "P1",
+        "status": "incoming",
+        "epic": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+        "uuid": "6fe3cf31-866d-4d6b-9c90-0645993cf27c"
+      },
+      "native_exit": 0,
+      "stderr_bytes": 0
+    },
+    {
+      "uuid": "522a0b65-0fcb-43d7-a338-614af8cf3856",
+      "frontmatter": {
+        "category": "stories",
+        "labels": "planning, artifacts, privacy, reproducibility",
+        "dependency": [
+          "6fe3cf31-866d-4d6b-9c90-0645993cf27c"
+        ],
+        "parent": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+        "type": "story",
+        "points": "3",
+        "title": "BT4.02 — Prove two clean source-only builds and isolated export smoke",
+        "priority": "P1",
+        "status": "incoming",
+        "epic": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+        "uuid": "522a0b65-0fcb-43d7-a338-614af8cf3856"
+      },
+      "native_exit": 0,
+      "stderr_bytes": 0
+    },
+    {
+      "uuid": "3ec6477d-331f-47bc-8c1e-e9fa4ed2396f",
+      "frontmatter": {
+        "category": "stories",
+        "labels": "planning, artifacts, privacy, reproducibility",
+        "dependency": [
+          "6fe3cf31-866d-4d6b-9c90-0645993cf27c",
+          "522a0b65-0fcb-43d7-a338-614af8cf3856"
+        ],
+        "parent": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+        "type": "story",
+        "points": "2",
+        "title": "BT4.03 — Enforce full-tree privacy, artifact drift and provenance in CI",
+        "priority": "P1",
+        "status": "incoming",
+        "epic": "ef1097f4-cb92-4318-b7c9-a60d49624272",
+        "uuid": "3ec6477d-331f-47bc-8c1e-e9fa4ed2396f"
+      },
+      "native_exit": 0,
+      "stderr_bytes": 0
+    }
+  ],
+  "board": {
+    "total-tasks": 4,
+    "columns": [
+      {
+        "status": "icebox",
+        "count": 0
+      },
+      {
+        "status": "incoming",
+        "count": 4
+      },
+      {
+        "status": "accepted",
+        "count": 0
+      },
+      {
+        "status": "breakdown",
+        "count": 0
+      },
+      {
+        "status": "blocked",
+        "count": 0
+      },
+      {
+        "status": "ready",
+        "count": 0
+      },
+      {
+        "status": "todo",
+        "count": 0
+      },
+      {
+        "status": "in_progress",
+        "count": 0
+      },
+      {
+        "status": "review",
+        "count": 0
+      },
+      {
+        "status": "document",
+        "count": 0
+      },
+      {
+        "status": "done",
+        "count": 0
+      },
+      {
+        "status": "rejected",
+        "count": 0
+      }
+    ],
+    "native_exit": 0,
+    "stderr_bytes": 0
+  },
+  "first_read_boundary": "Initial tool-visible read reported collection ENOENT/zero-card diagnostic/exit0. Later captured pre-authoring read after engine directory creation returned zero cards without stderr. Neither is readiness/admission proof."
+}

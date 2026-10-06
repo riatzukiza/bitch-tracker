@@ -1,0 +1,114 @@
+[
+  {
+    "capture": "board-after.json",
+    "bytes": 1888,
+    "sha256": "12173f52d794523061517938cfc5d8c0b056423cda158c18f65aad5c510d8f80",
+    "private_lossless_capture": "board-after.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "board-after.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "board-after.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "board-before.json",
+    "bytes": 974,
+    "sha256": "8555c4cba43b1e2fd7d717d18ae38d92d59f7ba4717949b232b53665bc16c9f8",
+    "private_lossless_capture": "board-before.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "board-before.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "board-before.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "existing-personal1-scope.json",
+    "bytes": 3192,
+    "sha256": "4cd8d9a41c15b4f931038f078b4333714f787691180611bfbe261e9f3340cefd",
+    "private_lossless_capture": "existing-personal1-scope.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "fork-network.json",
+    "bytes": 302,
+    "sha256": "8d532a5131fd2403db5dac1d87853934d487303c89afd5cd242a84fc1a03e1f2",
+    "private_lossless_capture": "fork-network.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-build.json",
+    "bytes": 4766,
+    "sha256": "6d7ae888955719119c541e58a8853ba15e425bc5822ae1d111f8eb109fa46c76",
+    "private_lossless_capture": "read-build.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-build.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "read-build.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-contract.json",
+    "bytes": 5365,
+    "sha256": "c32b73fe63823be3fac2b335be95089ba5e8813d15331c592a8e17d1c3f1cd92",
+    "private_lossless_capture": "read-contract.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-contract.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "read-contract.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-epic.json",
+    "bytes": 5006,
+    "sha256": "21c70a451651d0aa01ca0b6dbd1b61eef75eed01f53838d05e85934a14ca837d",
+    "private_lossless_capture": "read-epic.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-epic.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "read-epic.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-gates.json",
+    "bytes": 5158,
+    "sha256": "38611f0dc185bffb65b0e91acc9bd4284e23f0cdf36669797dad719cc28c589e",
+    "private_lossless_capture": "read-gates.json.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  },
+  {
+    "capture": "read-gates.stderr",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "private_lossless_capture": "read-gates.stderr.b64",
+    "encoding": "base64",
+    "committed_raw": false
+  }
+]
