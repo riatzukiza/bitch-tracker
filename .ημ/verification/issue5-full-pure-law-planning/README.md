@@ -64,3 +64,11 @@ provenance with original locations/raw hashes in its private-retention map;
 they are not asserted to be publicly available review inputs. This ordinary
 successor preserves the entire original whole plan and provides no approval,
 cohort, Ready or implementation qualification.
+
+## Native completeness finding correction
+
+The later full 138-path review identified incomplete-manifest false success.
+The [manifest completeness correction](manifest-completeness-repair/README.md)
+requires the complete three-manifest / 22-identity set and retains the earlier
+containment repair. Original evidence and planning history remain byte-exact;
+this local successor supplies no native review, Ready or cohort qualification.

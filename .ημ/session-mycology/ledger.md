@@ -34,3 +34,12 @@
   spore: none
   receipt-refs: 4dc1dc56ff954ba7b3090170ebf038210306908b1b481db5ce5a19586e446cb5
   note: Lexical path containment misses file and directory symlinks. Validate resolved root/artifact and read only that validated path; retain internal-link/root-alias behavior and full transport controls. Fictional external sentinel stayed unchanged, no real host leak or TOCTOU claim. No live event/spore/promotion.
+- ts: 2026-10-07T14:25:37.741611910Z
+  session: bitch3-manifest-completeness-b069e3a80c
+  task: BitchTracker3 exact native manifest/reference completeness repair
+  p-efficiency: 0.75
+  p-friction: 0.37
+  p-skill-candidate: 0.20
+  spore: none
+  receipt-refs: 7aeb1d65e0881118d4f776026bf768006762a3cf8db8cdc88b3deb214aaa8999
+  note: Require the expected identity set rather than a nonempty/count-only success; preserve full reference fixtures so containment controls still reach their check. Own preparation mistakes retained, no spore/live event or remote action.
