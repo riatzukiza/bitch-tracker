@@ -1,0 +1,80 @@
+{
+  "parent": "64af437938b15b0e0bd37c80cc01610a1dc25992",
+  "accepted_origin": "4f1015bae457e6b4890f80a5d312f4259fce3ddb",
+  "root_AGENTS_source": "user supplied Foresight independent child boundary",
+  "local_instructions": "No AGENTS.md, PROCESS.md or SKILL.md in current accepted Git tree; historical .\u03b7\u03bc/PRINCIPLE.edn read as provenance, not runtime authorization",
+  "sources": [
+    {
+      "path": ".clj-kondo/config.edn",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "b993c234169123a6219163bc8cb478883863e626",
+      "bytes": 54,
+      "sha256": "a00b74bcfc8afb00feb20afb288ef9d833e29a92dc733db52f857d8b679a64c6"
+    },
+    {
+      "path": ".github/workflows/eta-mu-review.yml",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "511d717c2e1e8af40d966d48712a15e335763bfc",
+      "bytes": 1021,
+      "sha256": "401a41a94cb9c0478e7d4ed13a3d0055f5d590cad175c6f51069ef40445fc8f3"
+    },
+    {
+      "path": ".\u03b7\u03bc/PRINCIPLE.edn",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "7688c8be969e2b21f979087e80f7d65748ff0450",
+      "bytes": 12748,
+      "sha256": "7205cb7c9ae95ee60d10e0cf8e4148c19c2f5afdd13f3bf86c21343f10cdab31"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "3d2465276a82c9c3360b1b1d9f6ca019e057a158",
+      "bytes": 1380,
+      "sha256": "4460b381fb63e1a016443d6e6a7fa5c5ad3cbd0c6e2cc79a152efe5f2db4f0af"
+    },
+    {
+      "path": "bb.edn",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "96ffa11957f73c049646f9185277429d67636bc9",
+      "bytes": 32,
+      "sha256": "e81a2428cf51ed39110989f7931782b97b74f755b32a8bc3539ec4076872cd95"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "a8a15fda19f8eb3f177e471a37d57116472100c6",
+      "bytes": 855,
+      "sha256": "5c862c785b427665a261bbdd1c1c908193c308e17720f7674589dee5ace629d5"
+    },
+    {
+      "path": "shadow-cljs.edn",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "ea61394226dd425d3d4e11a1e608779a5403db56",
+      "bytes": 358,
+      "sha256": "a2003d9736eb12be315f1de8ba437105a57d4e6fe9adaa62835f7868368f0ac0"
+    },
+    {
+      "path": "src/bitch_tracker/plugin.cljs",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "0d6661f53391fdc4c46b046cb8852d0d41ba7759",
+      "bytes": 3216,
+      "sha256": "34ab5cacb6fa619934d1cfd54b155506db006f0fd1bbaa11c876b1887fc963b5"
+    },
+    {
+      "path": "test/bitch_tracker/plugin_test.cljs",
+      "mode": "100644",
+      "type": "blob",
+      "oid": "d48b2a9954211dd63667b34704ee8f6977e2354e",
+      "bytes": 966,
+      "sha256": "338f27033fe6f39ea30e1dd0120e52d8d62e741ff965be3ae950c7f1adfe76d4"
+    }
+  ]
+}

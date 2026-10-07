@@ -1,0 +1,25 @@
+{
+  "store-fsck": {
+    "exit": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "store-reachable": {
+    "exit": 0,
+    "stdout_sha256": "3a278a1ce3f1e8ccc5d249356057b5f18bc075da107c7f4518df7f4e501bb03c",
+    "reachable_objects": 425
+  },
+  "store-config": {
+    "exit": 0,
+    "stdout_sha256": "f6cc79718e29aaea0a9fb9b3c1f365e435cdfdf8fe96754e8ecd65f9d4c5b069"
+  },
+  "hygiene": {
+    "exit": 0,
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "complete": true,
+  "shallow": false,
+  "alternates": false,
+  "promisor": false,
+  "object_hardlink_count": 0,
+  "runtime_external_symlinks": []
+}

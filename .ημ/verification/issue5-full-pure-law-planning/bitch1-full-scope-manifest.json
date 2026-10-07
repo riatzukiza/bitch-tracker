@@ -1,0 +1,48 @@
+[
+  {
+    "label": "bitch1-full",
+    "argv": [
+      "gh",
+      "api",
+      "--paginate",
+      "repos/riatzukiza/bitch-tracker/pulls/1"
+    ],
+    "exit": 0,
+    "raw_source_bytes": 18527,
+    "raw_source_sha256": "ef109083157a621937322cc4e029e5a96937b66050dc031394a43a488a365255",
+    "scope": "Structurally safe native view after canonical status success",
+    "stdout": {
+      "path": "native/bitch1-full.stdout.b64",
+      "bytes": 21256,
+      "sha256": "6ddaa8dbb1e00f0c06aa9a1ce010c9fdbbc4a9aa5068f1da6cc1bc8eb8c613f8"
+    },
+    "stderr": {
+      "path": "native/bitch1-full.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "bitch1-files",
+    "argv": [
+      "gh",
+      "api",
+      "--paginate",
+      "repos/riatzukiza/bitch-tracker/pulls/1/files?per_page=100"
+    ],
+    "exit": 0,
+    "raw_source_bytes": 29839,
+    "raw_source_sha256": "2840f87ba2c67af1ec8a4b9c99797f6f2c16c9a39cc305ee22a93fca029e0e14",
+    "scope": "Structurally safe native view after canonical status success",
+    "stdout": {
+      "path": "native/bitch1-files.stdout.b64",
+      "bytes": 30156,
+      "sha256": "31e32d2486dda284b3a253265118902844eda91900ec18d648adef8fc59e5ae3"
+    },
+    "stderr": {
+      "path": "native/bitch1-files.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

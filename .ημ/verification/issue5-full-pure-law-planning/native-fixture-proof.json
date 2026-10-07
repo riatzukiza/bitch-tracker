@@ -1,0 +1,93 @@
+{
+  "engine_source": "ef3c4abf1ea75199486f693e9470df3fec88dd49",
+  "engine_artifact_sha256": "791418bc9767260df804b5a972acb4bee7a5ffb409ea1edb899c348a2b8546a4",
+  "engine_bytes": 2115588,
+  "inspection": "Private diagnostic tasks-dir override; no accepted repository configuration, transition, readiness or gate validation. Readonly mounts/network unshared; unchanged inputs do not prove zero write attempts. No rebuild/release qualification.",
+  "inputs": [
+    {
+      "path": "docs/agile/tasks/bt5-01-pure-reaction-label-state.md",
+      "mode": "100644",
+      "bytes": 7481,
+      "sha256": "db86d46f50bb25196adfbb47b3b60421b5621d13e07b5c125fe230cf6e556181"
+    },
+    {
+      "path": "docs/agile/tasks/bt5-full-pure-laws-epic.md",
+      "mode": "100644",
+      "bytes": 3780,
+      "sha256": "b394f861d2a595246ab2a66617ac3896803e9ddf140a2164d798c90782846ebb"
+    },
+    {
+      "path": "docs/agile/tasks/bt5-02-supplied-time-dedup.md",
+      "mode": "100644",
+      "bytes": 2872,
+      "sha256": "59eecf70b408808ed8b1e9802ba8a92182e95846343773708acf3b0535f28b00"
+    },
+    {
+      "path": "docs/agile/tasks/bt5-03-watchlist-policy-shapes.md",
+      "mode": "100644",
+      "bytes": 3077,
+      "sha256": "5df79c36e5c22a9521a45a2087c8ee68b50294bacb1b16ac9d7b6ba0c0f88f02"
+    }
+  ],
+  "inputs_after_exact": true,
+  "extra_files": [],
+  "results": [
+    {
+      "uuid": "acfa4cdf-a7b4-43d2-a165-eeffff40ce3d",
+      "title": "BT5.01 Pure reaction-label state and author-count laws",
+      "frontmatter": {
+        "uuid": "acfa4cdf-a7b4-43d2-a165-eeffff40ce3d",
+        "title": "BT5.01 Pure reaction-label state and author-count laws",
+        "status": "incoming",
+        "priority": "P2",
+        "points": "3",
+        "labels": "planning, pure-laws, reactions, issue-5"
+      }
+    },
+    {
+      "uuid": "57b9ffc5-75e7-4098-9af8-efc001f60eb0",
+      "title": "BT5 Full pure reaction, dedup and watchlist laws",
+      "frontmatter": {
+        "uuid": "57b9ffc5-75e7-4098-9af8-efc001f60eb0",
+        "title": "BT5 Full pure reaction, dedup and watchlist laws",
+        "status": "incoming",
+        "priority": "P2",
+        "points": "13",
+        "labels": "planning, pure-laws, issue-5"
+      }
+    },
+    {
+      "uuid": "e164efce-36e6-4cbe-9407-ddcb3d7d7509",
+      "title": "BT5.02 Supplied-time bounded event dedup laws",
+      "frontmatter": {
+        "uuid": "e164efce-36e6-4cbe-9407-ddcb3d7d7509",
+        "title": "BT5.02 Supplied-time bounded event dedup laws",
+        "status": "incoming",
+        "priority": "P2",
+        "points": "5",
+        "labels": "planning, pure-laws, issue-5",
+        "parent": "57b9ffc5-75e7-4098-9af8-efc001f60eb0",
+        "dependency": [
+          "acfa4cdf-a7b4-43d2-a165-eeffff40ce3d"
+        ]
+      }
+    },
+    {
+      "uuid": "36b20257-9d07-45a7-9246-867706f810cc",
+      "title": "BT5.03 Watchlist policies and pure shape integration",
+      "frontmatter": {
+        "uuid": "36b20257-9d07-45a7-9246-867706f810cc",
+        "title": "BT5.03 Watchlist policies and pure shape integration",
+        "status": "incoming",
+        "priority": "P2",
+        "points": "5",
+        "labels": "planning, pure-laws, issue-5",
+        "parent": "57b9ffc5-75e7-4098-9af8-efc001f60eb0",
+        "dependency": [
+          "acfa4cdf-a7b4-43d2-a165-eeffff40ce3d",
+          "e164efce-36e6-4cbe-9407-ddcb3d7d7509"
+        ]
+      }
+    }
+  ]
+}

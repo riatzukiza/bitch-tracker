@@ -1,0 +1,38 @@
+{
+  "base": "64af437938b15b0e0bd37c80cc01610a1dc25992",
+  "prefixes": [
+    {
+      "path": "docs/agile/tasks/bt5-01-pure-reaction-label-state.md",
+      "base_bytes": 5717,
+      "base_sha256": "15d649ac90a575798a76c24637de673fd64e23f4c8ef6415d652b2e55fb42d4e",
+      "current_bytes": 7481,
+      "current_sha256": "db86d46f50bb25196adfbb47b3b60421b5621d13e07b5c125fe230cf6e556181",
+      "exact_prefix": true
+    },
+    {
+      "path": "docs/agile/notes/reaction-label-law-plan.md",
+      "base_bytes": 3295,
+      "base_sha256": "bc4f7f1f11fd8129902fab97bf0fc8d7ec91ec7b18a9c19bacc08c6a1b0100f9",
+      "current_bytes": 3881,
+      "current_sha256": "c64a278fea003b086e4470c17e0303229f05928daad1c785cdcf92727a861072",
+      "exact_prefix": true
+    },
+    {
+      "path": ".\u03b7\u03bc/receipts.edn",
+      "base_bytes": 2785,
+      "base_sha256": "d6abbbe886036e3368e12a139dbb8c8da3e4a75da32981cf8fac30a5061cae00",
+      "current_bytes": 5678,
+      "current_sha256": "940b93d0cfd75babcabf7432d91c1bfe318d4fdfcbbb330eb6ae7dfb4119481e",
+      "exact_prefix": true
+    },
+    {
+      "path": ".\u03b7\u03bc/session-mycology/ledger.md",
+      "base_bytes": 526,
+      "base_sha256": "1913ad38151918c7aa142e54ff89f0745e38ad1ed08d9e6a90e7684a4bff8a23",
+      "current_bytes": 1186,
+      "current_sha256": "98c485ba958f86459181d3f3ac54af9d71b2c6ab1d74292e5ebb45d038844700",
+      "exact_prefix": true
+    }
+  ],
+  "other_inherited_entries_exact": 27
+}

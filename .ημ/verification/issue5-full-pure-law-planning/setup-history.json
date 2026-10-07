@@ -1,0 +1,41 @@
+{
+  "failure": {
+    "exit": 1,
+    "error": "KeyError: title",
+    "reason": "Own evidence checker assumed native read-task title at top-level. Actual title is returned in frontmatter; engine read succeeded. No source or state mutation.",
+    "script_sha256": "9992825277a7d050e4af0e3060647df04cab8e644d3eb860850d625f4886bec4"
+  },
+  "retained_files": [
+    {
+      "path": "failure.json",
+      "bytes": 307,
+      "sha256": "4bff32ac91fbe108f35c6a9f3c7949d6a1c80b4df3a5df747ed1f4cad6734201"
+    },
+    {
+      "path": "native-help.stdout.b64",
+      "bytes": 3557,
+      "sha256": "b623773c4f426b61d16e8a45c29de3173ceff5cc78422cbf1c54f3df3f2eea20"
+    },
+    {
+      "path": "native-help.stderr.b64",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "native-read-bt5-01-pure-reaction-label-state.stderr.b64",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "prepare-attempt1.py",
+      "bytes": 7544,
+      "sha256": "9992825277a7d050e4af0e3060647df04cab8e644d3eb860850d625f4886bec4"
+    },
+    {
+      "path": "native-read-bt5-01-pure-reaction-label-state.stdout.b64",
+      "bytes": 10513,
+      "sha256": "5c46689a84ddf6172cb62d5244358cc20d4a0b94762540fee5131adfcff08fb6"
+    }
+  ],
+  "subsequent": "Corrected returned frontmatter title; all four refreshed native reads exit0. No source/board operation failed."
+}

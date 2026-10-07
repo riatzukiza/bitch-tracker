@@ -52,3 +52,14 @@ code, using injected data only. Run hosted CLJS and, for `.cljc`, the same
 JVM/CLJS fixtures. Preserve lifecycle tests and existing export smoke. Clocks,
 dedup, watchlist and effectful consumers remain separately admitted stories;
 no global helper, dependency hook or service runs in this planning PR.
+
+
+## Proposed whole-issue design relationship
+
+The original finite reaction contract and fixtures remain unchanged above.
+[Issue 5 full pure-law planning](issue5-full-pure-laws-plan.md) now describes
+the complete proposed issue decomposition and interface/validation integration.
+Its dedup/watchlist effects-free siblings do not authorize clocks, TTL storage,
+watchlist side effects or notifications inside this reaction function. No prior
+review is transferred to the new full planning head; all shared schema and
+integration decisions still require review and lawful Ready admission.

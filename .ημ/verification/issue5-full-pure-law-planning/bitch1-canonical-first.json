@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/runtime/bin/node",
+    "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/runtime/nbb/cli.js",
+    "-cp",
+    "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/runtime/pr-flow/scripts",
+    "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/runtime/pr-flow/scripts/pr.cljs",
+    "status",
+    "riatzukiza/bitch-tracker",
+    "1"
+  ],
+  "exit": 0,
+  "stdout": {
+    "path": "native/bitch1-canonical-first.stdout.b64",
+    "bytes": 476,
+    "sha256": "877af09c7a7494db46a39bebe426c5ec7deee5326b66e42f202c940c53ba9a69"
+  },
+  "stderr": {
+    "path": "native/bitch1-canonical-first.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

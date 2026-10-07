@@ -1,0 +1,542 @@
+[
+  {
+    "label": "bitch1-canonical-first",
+    "scope": "Canonical first output, or structurally safe native view after that success; raw source hash in original provenance, scoped URL query values withheld before persistence",
+    "stdout": {
+      "path": "captures/bitch1-canonical-first.stdout.b64",
+      "bytes": 476,
+      "sha256": "877af09c7a7494db46a39bebe426c5ec7deee5326b66e42f202c940c53ba9a69"
+    },
+    "stderr": {
+      "path": "captures/bitch1-canonical-first.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "bitch1-full",
+    "scope": "Canonical first output, or structurally safe native view after that success; raw source hash in original provenance, scoped URL query values withheld before persistence",
+    "stdout": {
+      "path": "captures/bitch1-full.stdout.b64",
+      "bytes": 21256,
+      "sha256": "6ddaa8dbb1e00f0c06aa9a1ce010c9fdbbc4a9aa5068f1da6cc1bc8eb8c613f8"
+    },
+    "stderr": {
+      "path": "captures/bitch1-full.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "bitch1-files",
+    "scope": "Canonical first output, or structurally safe native view after that success; raw source hash in original provenance, scoped URL query values withheld before persistence",
+    "stdout": {
+      "path": "captures/bitch1-files.stdout.b64",
+      "bytes": 30156,
+      "sha256": "31e32d2486dda284b3a253265118902844eda91900ec18d648adef8fc59e5ae3"
+    },
+    "stderr": {
+      "path": "captures/bitch1-files.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-help",
+    "argv": [
+      "bwrap",
+      "--die-with-parent",
+      "--unshare-all",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime",
+      "/runtime",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/native-refined-fixture",
+      "/fixture",
+      "--ro-bind",
+      "/usr/lib",
+      "/usr/lib",
+      "--ro-bind",
+      "/lib",
+      "/lib",
+      "--ro-bind",
+      "/lib64",
+      "/lib64",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--chdir",
+      "/tmp",
+      "/runtime/bin/node",
+      "/runtime/rheos/cli.cjs",
+      "--help"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/native-help.stdout.b64",
+      "bytes": 2667,
+      "sha256": "fd00e6c7da9b4303f1477b6877316600ee7ff461b49d2c4ea7def9866937e21b"
+    },
+    "stderr": {
+      "path": "captures/native-help.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-read-bt5-01-pure-reaction-label-state",
+    "argv": [
+      "bwrap",
+      "--die-with-parent",
+      "--unshare-all",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime",
+      "/runtime",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/native-refined-fixture",
+      "/fixture",
+      "--ro-bind",
+      "/usr/lib",
+      "/usr/lib",
+      "--ro-bind",
+      "/lib",
+      "/lib",
+      "--ro-bind",
+      "/lib64",
+      "/lib64",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--chdir",
+      "/tmp",
+      "/runtime/bin/node",
+      "/runtime/rheos/cli.cjs",
+      "read-task",
+      "acfa4cdf-a7b4-43d2-a165-eeffff40ce3d",
+      "--tasks-dir",
+      "/fixture/docs/agile/tasks"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/native-read-bt5-01-pure-reaction-label-state.stdout.b64",
+      "bytes": 7883,
+      "sha256": "4753e1578b61344f7af76ac731be91619fc803895abd0dd4829562459ccd8c98"
+    },
+    "stderr": {
+      "path": "captures/native-read-bt5-01-pure-reaction-label-state.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-read-bt5-full-pure-laws-epic",
+    "argv": [
+      "bwrap",
+      "--die-with-parent",
+      "--unshare-all",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime",
+      "/runtime",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/native-refined-fixture",
+      "/fixture",
+      "--ro-bind",
+      "/usr/lib",
+      "/usr/lib",
+      "--ro-bind",
+      "/lib",
+      "/lib",
+      "--ro-bind",
+      "/lib64",
+      "/lib64",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--chdir",
+      "/tmp",
+      "/runtime/bin/node",
+      "/runtime/rheos/cli.cjs",
+      "read-task",
+      "57b9ffc5-75e7-4098-9af8-efc001f60eb0",
+      "--tasks-dir",
+      "/fixture/docs/agile/tasks"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/native-read-bt5-full-pure-laws-epic.stdout.b64",
+      "bytes": 4108,
+      "sha256": "c5dc61d48465969d93ff56c3e47dc58d30ac6e74d3c0685f24327c34837fab0e"
+    },
+    "stderr": {
+      "path": "captures/native-read-bt5-full-pure-laws-epic.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-read-bt5-02-supplied-time-dedup",
+    "argv": [
+      "bwrap",
+      "--die-with-parent",
+      "--unshare-all",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime",
+      "/runtime",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/native-refined-fixture",
+      "/fixture",
+      "--ro-bind",
+      "/usr/lib",
+      "/usr/lib",
+      "--ro-bind",
+      "/lib",
+      "/lib",
+      "--ro-bind",
+      "/lib64",
+      "/lib64",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--chdir",
+      "/tmp",
+      "/runtime/bin/node",
+      "/runtime/rheos/cli.cjs",
+      "read-task",
+      "e164efce-36e6-4cbe-9407-ddcb3d7d7509",
+      "--tasks-dir",
+      "/fixture/docs/agile/tasks"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/native-read-bt5-02-supplied-time-dedup.stdout.b64",
+      "bytes": 3218,
+      "sha256": "d894754f9018c992391b2eaa63cba2c15aa9a393f7a6ab64e6ff92e1fe7ea6a3"
+    },
+    "stderr": {
+      "path": "captures/native-read-bt5-02-supplied-time-dedup.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "native-read-bt5-03-watchlist-policy-shapes",
+    "argv": [
+      "bwrap",
+      "--die-with-parent",
+      "--unshare-all",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime",
+      "/runtime",
+      "--ro-bind",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/native-refined-fixture",
+      "/fixture",
+      "--ro-bind",
+      "/usr/lib",
+      "/usr/lib",
+      "--ro-bind",
+      "/lib",
+      "/lib",
+      "--ro-bind",
+      "/lib64",
+      "/lib64",
+      "--proc",
+      "/proc",
+      "--dev",
+      "/dev",
+      "--tmpfs",
+      "/tmp",
+      "--chdir",
+      "/tmp",
+      "/runtime/bin/node",
+      "/runtime/rheos/cli.cjs",
+      "read-task",
+      "36b20257-9d07-45a7-9246-867706f810cc",
+      "--tasks-dir",
+      "/fixture/docs/agile/tasks"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/native-read-bt5-03-watchlist-policy-shapes.stdout.b64",
+      "bytes": 3437,
+      "sha256": "40b0f96305efc6550b0b5278cde5bbcd20f8ab5b68f1f818e6569182ad61b015"
+    },
+    "stderr": {
+      "path": "captures/native-read-bt5-03-watchlist-policy-shapes.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "private-node-version",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/bin/node",
+      "--version"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/private-node-version.stdout.b64",
+      "bytes": 9,
+      "sha256": "1506cdf8613ebb6c1198a9587c5e1b708b3e779b139a0b59f937efa199e2ecae"
+    },
+    "stderr": {
+      "path": "captures/private-node-version.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "nbb-version",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/nbb/cli.js",
+      "--version"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/nbb-version.stdout.b64",
+      "bytes": 13,
+      "sha256": "09dbc6fe4fb949f518d7f2edc5b50740f50a4995626023c7c42ac75ad0adf09a"
+    },
+    "stderr": {
+      "path": "captures/nbb-version.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "git-diff-check",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "64af437938b15b0e0bd37c80cc01610a1dc25992"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream in canonical single-terminal-LF base64",
+    "stdout": {
+      "path": "captures/git-diff-check.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/git-diff-check.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-current-owner-append",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/consumer.cljs",
+      "append",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/worktree/.\u03b7\u03bc/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/actual-current-owner-append.stdout.b64",
+      "bytes": 115,
+      "sha256": "ee0bab0760dfec748daec13836e9874f01fc5ea311d478de3027292c90299cfd"
+    },
+    "stderr": {
+      "path": "captures/actual-current-owner-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-current-owner-working-tip",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/consumer.cljs",
+      "file",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/worktree/.\u03b7\u03bc/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/actual-current-owner-working-tip.stdout.b64",
+      "bytes": 517,
+      "sha256": "d55dce8a49b19680a04ef4c93e4d318db61eafd79cd11ab86bb5f634a0e6b0ee"
+    },
+    "stderr": {
+      "path": "captures/actual-current-owner-working-tip.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "portable-reflection-append",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/mycology/sm-log.bb",
+      "--task",
+      "Bitch Tracker issue5 complete pure-law planning",
+      "--efficiency",
+      "0.86",
+      "--friction",
+      "0.17",
+      "--candidate",
+      "0.10",
+      "--receipt-refs",
+      "3b18ca2f5d00140d72d7eb27138e0b90ed753643f160b186c92200e2812d686b",
+      "--note",
+      "Read full parent body/all seven files before duplicate decision. Preserve finite reaction3 while proposing whole seven concepts/eight invariants/seven proofs with honest epic decomposition. Native JSON title-level checker mistake retained/corrected; visibility and historical review remain distinct from new admission. No live reflection event, spore or promotion."
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/portable-reflection-append.stdout.b64",
+      "bytes": 138,
+      "sha256": "0df985f1da29bbe1d97af37e9aa73ca18ab24b0b3e44759958ac51d4106b601b"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "portable-reflection-readback",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/portable-reflection-readback.stdout.b64",
+      "bytes": 686,
+      "sha256": "729b54e9200e5511aeb8ff29e3ac5510653b626cbd98dcff3563d20c0af06809"
+    },
+    "stderr": {
+      "path": "captures/portable-reflection-readback.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "store-fsck",
+    "argv": [
+      "git",
+      "--git-dir",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/source.git",
+      "fsck",
+      "--full",
+      "--no-reflogs"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/store-fsck.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/store-fsck.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "store-reachable",
+    "argv": [
+      "git",
+      "--git-dir",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/source.git",
+      "rev-list",
+      "--objects",
+      "--all",
+      "--missing=print"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/store-reachable.stdout.b64",
+      "bytes": 27096,
+      "sha256": "3a278a1ce3f1e8ccc5d249356057b5f18bc075da107c7f4518df7f4e501bb03c"
+    },
+    "stderr": {
+      "path": "captures/store-reachable.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "store-config",
+    "argv": [
+      "git",
+      "--git-dir",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/source.git",
+      "config",
+      "--local",
+      "--list"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/store-config.stdout.b64",
+      "bytes": 131,
+      "sha256": "f6cc79718e29aaea0a9fb9b3c1f365e435cdfdf8fe96754e8ecd65f9d4c5b069"
+    },
+    "stderr": {
+      "path": "captures/store-config.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "hygiene",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "64af437938b15b0e0bd37c80cc01610a1dc25992"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical single terminal LF base64",
+    "stdout": {
+      "path": "captures/hygiene.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "captures/hygiene.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]
