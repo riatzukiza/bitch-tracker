@@ -1,0 +1,138 @@
+[
+  {
+    "repo": "octave-commons/Truth",
+    "exit": 0,
+    "raw_source_sha256": "d1d1a7aa56aace6038ef9104f197fce88a691645c7420c15949fa71c84366b83",
+    "raw_source_bytes": 22494,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/octave-commons-Truth.stdout.b64",
+      "sha256": "110b963151ab926097705aece1039bcbf9ed5f96969ba1ecabb8fc5630c0a9e0",
+      "bytes": 28768
+    },
+    "stderr": {
+      "path": "native/octave-commons-Truth.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "repo": "riatzukiza/Truth",
+    "exit": 0,
+    "raw_source_sha256": "9f06bbcdf5748ba50e9e88bed6e62245773efd2f36264e29209421a168696d7a",
+    "raw_source_bytes": 2228,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/riatzukiza-Truth.stdout.b64",
+      "sha256": "dda0792bb03ca3ec36dfd95877ec9747f47a0ba06a7e31179e791235eda4f516",
+      "bytes": 3238
+    },
+    "stderr": {
+      "path": "native/riatzukiza-Truth.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "repo": "octave-commons/epiphany",
+    "exit": 0,
+    "raw_source_sha256": "5fefb653faa62e7d6b92c3882536797311b4000d8ff2591706fa38c507d1514b",
+    "raw_source_bytes": 3255,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/octave-commons-epiphany.stdout.b64",
+      "sha256": "178f5f9525a0ecadc14a4e24df281c8434e5dde256a97907315463fd844bb26f",
+      "bytes": 3833
+    },
+    "stderr": {
+      "path": "native/octave-commons-epiphany.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "repo": "riatzukiza/epiphany",
+    "exit": 0,
+    "raw_source_sha256": "ccf4226a5b9994632fd93db1bf1b02cec6d9eb64789d20dc75dfc8c5466b2676",
+    "raw_source_bytes": 1025,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/riatzukiza-epiphany.stdout.b64",
+      "sha256": "6d239f9ffb3c81fb110bad8ac69cd38d690fcf5591495cf15882b05f4bae59ca",
+      "bytes": 1555
+    },
+    "stderr": {
+      "path": "native/riatzukiza-epiphany.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "repo": "octave-commons/bitch-tracker",
+    "exit": 0,
+    "raw_source_sha256": "1cd53206eef70b58f43547a8a21edd7add6bbb1ee0d098ea0b34c1ef202f3f0a",
+    "raw_source_bytes": 11071,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/octave-commons-bitch-tracker.stdout.b64",
+      "sha256": "9cd36c9acd91718c5ddb723f99d35ff8f6780113a56d85e4751c93c1a01ca873",
+      "bytes": 11872
+    },
+    "stderr": {
+      "path": "native/octave-commons-bitch-tracker.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "repo": "riatzukiza/bitch-tracker",
+    "exit": 0,
+    "raw_source_sha256": "e172beda63c66e569b7ab60d91636c0eb9f0c5ea557fda7348459fb24896f36c",
+    "raw_source_bytes": 1014,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/riatzukiza-bitch-tracker.stdout.b64",
+      "sha256": "21bd36fd272d09ecf63f89c92f9f96124d9e4cd0f03981be129bce4c1483277e",
+      "bytes": 1544
+    },
+    "stderr": {
+      "path": "native/riatzukiza-bitch-tracker.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "repo": "open-hax/opencode",
+    "exit": 0,
+    "raw_source_sha256": "7886b5622c5bde340328a4512ea4129cf89eb7adcd954ed01fe3d7242d238253",
+    "raw_source_bytes": 422,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/open-hax-opencode.stdout.b64",
+      "sha256": "0a6a7f226073292127be866ab09b71f692a9354c8014c42762a8417a5d107ed1",
+      "bytes": 703
+    },
+    "stderr": {
+      "path": "native/open-hax-opencode.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  },
+  {
+    "repo": "riatzukiza/opencode",
+    "exit": 0,
+    "raw_source_sha256": "89e1d5ff6ee485e0aaf9619122cd74aca76e44ee6b62e341283d5e5814b266d5",
+    "raw_source_bytes": 30393,
+    "scope": "Structurally safe native inventory; no PR bodies/paths read",
+    "stdout": {
+      "path": "native/riatzukiza-opencode.stdout.b64",
+      "sha256": "0a6a54c7357d0837b673c06fd7c5a45a4a61eedd88ed0a7894174d7e76825333",
+      "bytes": 32319
+    },
+    "stderr": {
+      "path": "native/riatzukiza-opencode.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  }
+]

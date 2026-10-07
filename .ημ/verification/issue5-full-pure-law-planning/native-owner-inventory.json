@@ -1,0 +1,124 @@
+{
+  "octave-commons/bitch-tracker": {
+    "data": {
+      "repository": {
+        "nameWithOwner": "octave-commons/bitch-tracker",
+        "isFork": false,
+        "hasIssuesEnabled": true,
+        "parent": null,
+        "defaultBranchRef": {
+          "name": "main",
+          "target": {
+            "oid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb"
+          }
+        },
+        "issues": {
+          "totalCount": 3,
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "Y3Vyc29yOnYyOpK0MjAyNi0wOC0yOVQxNjoyMTo1OFrPAAAAATsqxeQ="
+          },
+          "nodes": [
+            {
+              "number": 4,
+              "title": "Sanitize and deterministically build plugin artifacts",
+              "body": "## Why this replaces part of the stale mega-PRs\n\nThis card preserves the build/export work found in:\n\n- #1 at `693f1388e61bd268814f85d1a40ef15a4485e6a3`\n- #2 at `c48c8e45366e592b30cdbbcf54f016d585b0e646`\n- audited against main `2751fa62b164c739cdb1ef86adc6aa1a9ff1fb90`\n\nThe branches mix authoritative CLJS with generated BetterDiscord plugin JavaScript, machine/session artifacts, and a 772,060-byte runtime configuration snapshot. The snapshot contains 460 queued Discord event records, nonblank message bodies, external user identifiers, label state, and pending semantic identifiers. This issue deliberately records counts and paths without reproducing any token, identifier, or message text.\n\n## Scope\n\nEstablish an explicit, sanitized, deterministic artifact contract before any domain or adapter slice is lifted from the old branches.\n\n- Keep CLJS source authoritative.\n- Classify each `pseudo/*.plugin.js` file as either:\n  - an archived reference input with provenance and a reviewable license/source record, or\n  - a deterministic build output excluded from hand editing.\n- Replace `pseudo/OpenPlannerEventIngest.config.json` with a minimal fictional `.example.json` fixture that demonstrates schema only.\n- Ignore runtime configs, queues, caches, credentials, local state, and session artifacts.\n- Remove or normalize machine-specific links, absolute paths, board snapshots, and generated session/cache files.\n- Write a small provenance manifest naming source SHA, toolchain, and output hash for retained generated artifacts.\n\n## Acceptance criteria\n\n- [ ] No committed runtime token, message text, real user/server/channel identifier, queue, or local absolute path remains.\n- [ ] Secret and privacy scans run in CI over the full repository and fail closed.\n- [ ] A clean checkout builds the BetterDiscord export from source.\n- [ ] Two consecutive clean builds produce byte-identical output hashes.\n- [ ] The built plugin loads through a smoke harness and exposes the expected start/stop surface.\n- [ ] Generated files cannot drift unnoticed: CI rebuilds and compares, or they are excluded and attached as release artifacts.\n- [ ] The example config is schema-validated and uses only fictional values.\n- [ ] Documentation distinguishes source, fixture, archived reference, build output, and runtime state.\n\n## Evidence required\n\nAttach command lines, tool versions, immutable commit SHA, artifact hashes, secret/privacy scan result, and the clean-build smoke result. Do not claim runtime behavior proof from source-file existence.\n\n## Non-goals\n\nDomain reaction/dedup/watchlist semantics and Discord/OpenPlanner/Socket.IO runtime behavior belong in separate bounded cards.",
+              "labels": {
+                "nodes": [
+                  {
+                    "name": "blocked"
+                  }
+                ]
+              }
+            },
+            {
+              "number": 5,
+              "title": "Extract pure reaction, dedup, and watchlist laws",
+              "body": "## Source and boundary\n\nExtract the smallest pure behavior slice from the two stale mega-PRs:\n\n- #1 at `693f1388e61bd268814f85d1a40ef15a4485e6a3`\n- #2 at `c48c8e45366e592b30cdbbcf54f016d585b0e646`\n- current main at audit: `2751fa62b164c739cdb1ef86adc6aa1a9ff1fb90`\n- artifact sanitation is tracked separately in #4\n\nPreserve the useful domain/event/policy/shape work from #1 and the dedup/label/watchlist/law-schema work from #2. Do not copy the observed wall-clock dependencies, raw Discord objects, adapter effects, or generated snapshots.\n\n## Domain contract\n\nInput is normalized Clojure data plus explicit dependencies. Output is data: updated state, emitted domain events, or a typed rejection.\n\nRequired concepts:\n\n- normalized reaction-added and reaction-removed events;\n- stable message, actor, reactor, channel/server, and emoji identities;\n- label state capable of representing multiple reactors and multiple qualifying emoji on the same target message;\n- watchlist membership and threshold transitions;\n- bounded event deduplication with an explicit supplied timestamp/clock and TTL;\n- pure policy decisions;\n- pure, domain-agnostic shape coercion and protocol values;\n- Malli (or the repository-standard law layer) schemas for event, configuration, and socket envelopes.\n\n## Semantic invariants\n\n- [ ] A target author's message contributes at most once while at least one qualifying label remains.\n- [ ] Removing one reactor/emoji does not decrement while another qualifying label remains.\n- [ ] Removing the final qualifying label decrements exactly once.\n- [ ] Duplicate add/remove delivery is idempotent.\n- [ ] Reordering within the explicitly supported event model has a documented deterministic outcome.\n- [ ] Stale dedup entries expire only according to supplied time; tests never consult wall clock.\n- [ ] Threshold crossings and watchlist transitions emit once per state transition.\n- [ ] Unknown/malformed identities and envelopes fail with typed data, not incidental JavaScript exceptions.\n\n## Architecture constraints\n\n- Domain namespaces must not reference `js/Date`, Discord.js, Socket.IO, filesystem/network APIs, mutable globals, or raw JavaScript payloads.\n- Adapters normalize external payloads before invoking this API.\n- Prefer CLJC for genuinely portable laws/data; do not force portability where it obscures the contract.\n- Names follow repository category/contract guidance; no generic `utils` dumping ground.\n\n## Required proof\n\n- [ ] Table-driven unit tests for add/remove parity, multi-reactor/multi-emoji state, dedup TTL boundaries, malformed events, thresholds, and watchlist transitions.\n- [ ] Property tests for idempotency and \u201ccount at most once while labeled.\u201d\n- [ ] Tests inject time and identity; no sleeps or network.\n- [ ] `clj-kondo` reports zero errors and zero warnings over changed source and tests.\n- [ ] CLJS test compile and execution pass in hosted CI.\n- [ ] If CLJC is used, JVM and CLJS executions prove the same law fixtures.\n- [ ] Immutable SHA, command lines, assertion counts, and coverage output are attached.\n\n## Known source-branch defects not to preserve\n\nThe audit found wall-clock impurity in #1\u2019s reaction conversion/shape paths. #2\u2019s current test tree does not lint: `dedup_test.cljs` contains an invalid numeric literal and the branch reports 161 warnings in addition to that error. These are evidence for a clean extraction, not a request to merge either branch.",
+              "labels": {
+                "nodes": [
+                  {
+                    "name": "blocked"
+                  }
+                ]
+              }
+            },
+            {
+              "number": 6,
+              "title": "Implement Discord, Socket.IO, and OpenPlanner adapters",
+              "body": "## Source and dependencies\n\nPreserve the effectful integration work from stale PRs #1 (`693f1388e61bd268814f85d1a40ef15a4485e6a3`) and #2 (`c48c8e45366e592b30cdbbcf54f016d585b0e646`) as a clean adapter slice against main `2751fa62b164c739cdb1ef86adc6aa1a9ff1fb90`.\n\nThis card depends on:\n\n- #4 for sanitized, deterministic plugin artifacts;\n- #5 for the pure reaction/dedup/watchlist laws.\n\nAdapters own transport, lifecycle, retries, persistence, and external payload normalization. They must not reimplement domain policy.\n\n## Scope\n\n- Discord.js/BetterDiscord event adapters;\n- generic reaction add/remove normalization;\n- label-specific dispatch after generic normalization;\n- bot/self filtering;\n- Socket.IO connection and configuration exchange;\n- OpenPlanner HTTP calls and semantic-id recovery;\n- durable/local dedup state through an explicit port;\n- bounded queue/flush behavior;\n- plugin start/stop/reload lifecycle;\n- allowed-mention safety on relayed content.\n\n## Correctness obligations\n\n- [ ] Configuration is validated before use and required values are nonblank; no hard-coded machine paths or synchronous config reads in the hot path.\n- [ ] Configuration requests are sent only after the socket is connected.\n- [ ] Start/stop/reload owns exactly one socket and one listener set; reconnects do not leak sockets or duplicate handlers.\n- [ ] A true one-in-flight flush guard returns immediately for concurrent triggers.\n- [ ] A successful flush removes exactly the acknowledged batch; concurrently enqueued items remain queued.\n- [ ] A failed flush retains the batch for retry without duplication or loss.\n- [ ] Generic reaction-added and reaction-removed events are both forwarded; label behavior is an additional consumer, not a replacement.\n- [ ] Discord bot/self events are excluded according to an explicit actor identity contract.\n- [ ] OpenPlanner identifiers and pending semantic IDs survive retry/restart according to documented recovery rules.\n- [ ] Relayed messages use `allowed_mentions: {parse: []}` (or the SDK-equivalent exact structure) unless a separately reviewed policy grants mentions.\n- [ ] External errors become typed adapter results/events and never mutate pure state as if the operation succeeded.\n\n## Required integration proof\n\nBuild hermetic fakes at transport boundaries, not mocks of the domain function itself.\n\n- [ ] Fake Socket.IO server proves connect/config/disconnect/reconnect ordering and listener cardinality.\n- [ ] Fake OpenPlanner HTTP service proves success, timeout, malformed response, retry, and semantic-id recovery.\n- [ ] Queue stress test overlaps enqueue and flush calls and proves no duplicate/drop across success and failure.\n- [ ] Reaction fixture tests prove generic add/remove parity and the adapter-to-#5 normalized envelope.\n- [ ] BetterDiscord export smoke proves start \u2192 receive \u2192 dispatch \u2192 stop without live credentials.\n- [ ] One end-to-end fixture drives a reaction through adapter, pure law, outbound OpenPlanner call, and receipt.\n- [ ] Changed source/tests lint at zero errors and zero warnings.\n- [ ] Hosted CI compiles and executes CLJS unit/integration suites and the plugin build.\n- [ ] Evidence includes immutable SHA, command lines, test/assertion counts, and coverage per domain versus adapter namespace.\n\n## Audit findings motivating the clean slice\n\nThe #1 head still has unresolved review findings for a reconnect socket leak, a configuration request before connection, a flush guard that does not actually return, concurrent flush duplicate/drop risk, and reaction removals not forwarded through the generic path. These must be proved fixed in the new slice rather than administratively copied or marked resolved.\n\n## Non-goals\n\nGenerated/runtime snapshot policy belongs to #4. Reaction, dedup, threshold, and watchlist business law belongs to #5. No live credential is required for merge; a separately recorded operator smoke may follow after hermetic CI is green.",
+              "labels": {
+                "nodes": [
+                  {
+                    "name": "blocked"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "pullRequests": {
+          "totalCount": 0,
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          },
+          "nodes": []
+        }
+      }
+    }
+  },
+  "riatzukiza/bitch-tracker": {
+    "data": {
+      "repository": {
+        "nameWithOwner": "riatzukiza/bitch-tracker",
+        "isFork": true,
+        "hasIssuesEnabled": false,
+        "parent": {
+          "nameWithOwner": "octave-commons/bitch-tracker"
+        },
+        "defaultBranchRef": {
+          "name": "main",
+          "target": {
+            "oid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb"
+          }
+        },
+        "issues": {
+          "totalCount": 0,
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": null
+          },
+          "nodes": []
+        },
+        "pullRequests": {
+          "totalCount": 2,
+          "pageInfo": {
+            "hasNextPage": false,
+            "endCursor": "Y3Vyc29yOnYyOpHPAAAAARvgtJs="
+          },
+          "nodes": [
+            {
+              "number": 1,
+              "title": "Plan pure reaction-label state and author-count laws",
+              "headRefOid": "64af437938b15b0e0bd37c80cc01610a1dc25992",
+              "baseRefOid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb",
+              "headRefName": "codex/issue5-reaction-label-planning",
+              "baseRefName": "main",
+              "isDraft": false
+            },
+            {
+              "number": 2,
+              "title": "Plan complete source-only artifact and privacy proof",
+              "headRefOid": "c2b9cc2c817825095239f70fb116af8a1cd3ad74",
+              "baseRefOid": "4f1015bae457e6b4890f80a5d312f4259fce3ddb",
+              "headRefName": "codex/bitch-artifact-planning",
+              "baseRefName": "main",
+              "isDraft": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "label": "references-valid",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-valid.stdout.b64",
+      "bytes": 67,
+      "sha256": "fd8a15b1c0ddb6207c7d052ab2c07ee054fe5b98a41dbfa436a08737ede7b463"
+    },
+    "stderr": {
+      "path": "references-valid.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "checker-compile",
+    "argv": [
+      "python",
+      "-m",
+      "py_compile",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "checker-compile.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "checker-compile.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-missing",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/control-missing"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-missing.stdout.b64",
+      "bytes": 347,
+      "sha256": "34b856edc25ef9c886f3ccfde2af96a34be1de16d864d3d2d92c8b11eb8178a5"
+    },
+    "stderr": {
+      "path": "references-negative-missing.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-bytes",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/control-bytes"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-bytes.stdout.b64",
+      "bytes": 194,
+      "sha256": "a123996e4554132754e25066e206e482f59a15fe1847d3ccf8244e6edaf27a2e"
+    },
+    "stderr": {
+      "path": "references-negative-bytes.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-wrapper",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/control-wrapper"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-wrapper.stdout.b64",
+      "bytes": 201,
+      "sha256": "a6d6d62d9cb88f592ef55a0a4b3795d7eefe501e237c961c91a81c632d2f9169"
+    },
+    "stderr": {
+      "path": "references-negative-wrapper.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "references-negative-empty-manifests",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "--root",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/control-empty-manifests"
+    ],
+    "exit": 1,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "references-negative-empty-manifests.stdout.b64",
+      "bytes": 110,
+      "sha256": "2a70fcd065d846028888aa648c5afe59fe36e034d3f3ad90da7b57a26bf6cc77"
+    },
+    "stderr": {
+      "path": "references-negative-empty-manifests.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-owner-append",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/receipt-consumer.cljs",
+      "append",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "actual-owner-append.stdout.b64",
+      "bytes": 115,
+      "sha256": "ee0bab0760dfec748daec13836e9874f01fc5ea311d478de3027292c90299cfd"
+    },
+    "stderr": {
+      "path": "actual-owner-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-owner-working-tip",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/receipt-consumer.cljs",
+      "file",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/worktree/.\u03b7\u03bc/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "actual-owner-working-tip.stdout.b64",
+      "bytes": 799,
+      "sha256": "92ab96f2fb0a648c7493f98608e874af5fde0bfbb3a5b70a6bef7ab158723ae3"
+    },
+    "stderr": {
+      "path": "actual-owner-working-tip.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "reflection-append",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/mycology/sm-log.bb",
+      "--task",
+      "Bitch5 whole planning reference closure and explicit private provenance",
+      "--efficiency",
+      "0.84",
+      "--friction",
+      "0.22",
+      "--candidate",
+      "0.10",
+      "--receipt-refs",
+      "c22c073a0c5bbed1fef8178b02f02232a5707279420d8c64feb1eb39e810b8b0",
+      "--note",
+      "All inherited manifests need reachable relative outputs. Restore22safe originals and clearly separate6private retention records from public review inputs without rewriting history or whole issue scope. Own privacy bracket assertion and resumed mkdir mistakes retained/corrected; no live reflection event/spore/promotion."
+    ],
+    "exit": 0,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "reflection-append.stdout.b64",
+      "bytes": 140,
+      "sha256": "62ade9176bb00f5ed45e3301090639fcabcd95eed1c403828617cc4aaf570038"
+    },
+    "stderr": {
+      "path": "reflection-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "reflection-readback",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "reflection-readback.stdout.b64",
+      "bytes": 677,
+      "sha256": "0578e272d8ab351754e131c6939e9e5636528608598e1a43e00f7d6c151a6f65"
+    },
+    "stderr": {
+      "path": "reflection-readback.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "diff-hygiene",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "9a9a84464297745b88bcb5a102395c96386d62f6"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream; canonical single terminal LF base64",
+    "stdout": {
+      "path": "diff-hygiene.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "diff-hygiene.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

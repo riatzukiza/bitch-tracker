@@ -105,3 +105,31 @@ or label implementation checks passing in a planning-only PR.
   these silently introduces unsupported dedup semantics.
 - Historical source and source-only done cards are unadmitted references.
   Planning review and Rheos ready remain unmet regardless of old test counts.
+
+
+# Proposed whole-issue coordination refinement
+
+This existing reaction story retains its complete seven acceptance criteria,
+Incoming/P2/3 metadata, original scope/non-goals and history. Its three points
+size the finite reaction law, not the entire issue 5.
+
+The [whole issue 5 design](../notes/issue5-full-pure-laws-plan.md) and proposed
+[epic](bt5-full-pure-laws-epic.md) retain all eight original concept bullets grouped into seven design categories, eight
+invariants and seven proofs, including reactions, supplied-time dedup, watchlist
+thresholds, policies, pure shape coercion and all event/config/socket schemas.
+Proposed epic UUID `57b9ffc5-75e7-4098-9af8-efc001f60eb0` totals 13 points: existing reaction 3,
+supplied-time dedup 5 (`e164efce-36e6-4cbe-9407-ddcb3d7d7509`), and watchlist/policy/shape
+integration 5 (`36b20257-9d07-45a7-9246-867706f810cc`). All estimates/decomposition require
+review. This body reference does not retroactively assign an operational parent
+or dependency to this established card. No existing status/frontmatter changes.
+
+Review the shared normalized reaction event/config/socket contract before
+implementation; the larger design preserves the existing author/count/membership
+laws and adds independent pure sibling outcomes. Old set idempotence is not
+TTL replay protection. Existing no-clock/no-watchlist non-goals apply to this
+reaction story; sibling integration is coordinated by the new proposed epic.
+The old CodeRabbit completion at `64af437938b15b0e0bd37c80cc01610a1dc25992`
+does not approve the broadened planning head. Sync-free accepted base
+`4f1015bae457e6b4890f80a5d312f4259fce3ddb` is identical on current owning
+and personal main; this proposal stacks on personal PR 1 and inherits its
+qualification hold. No implementation or Rheos Ready is claimed.

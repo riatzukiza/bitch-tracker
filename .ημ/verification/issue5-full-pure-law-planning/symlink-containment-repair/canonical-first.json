@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/bin/node",
+    "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/nbb/cli.js",
+    "-cp",
+    "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/pr-flow/scripts",
+    "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/pr-flow/scripts/pr.cljs",
+    "status",
+    "riatzukiza/bitch-tracker",
+    "3"
+  ],
+  "exit": 0,
+  "stdout": {
+    "path": "canonical-first.stdout.b64",
+    "bytes": 617,
+    "sha256": "8b465d5b4ed8052b744ca93eea6e320a293e6143b82b5d662d74c1fb53e8715a"
+  },
+  "stderr": {
+    "path": "canonical-first.stderr.b64",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

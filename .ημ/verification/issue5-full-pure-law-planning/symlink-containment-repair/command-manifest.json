@@ -1,0 +1,204 @@
+[
+  {
+    "label": "before-external-symlink-repro",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/symlink-containment-repair/probe-containment.py",
+      "--checker",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "--evidence",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning",
+      "--fixtures",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/outside/before-fixtures",
+      "--phase",
+      "before"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "before-external-symlink-repro.stdout.b64",
+      "bytes": 1251,
+      "sha256": "0d689c08f3d5dc2309d61df579019b3a540ee592ceca6068cae834db022758f5"
+    },
+    "stderr": {
+      "path": "before-external-symlink-repro.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "after-containment-matrix",
+    "argv": [
+      "python",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/symlink-containment-repair/probe-containment.py",
+      "--checker",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "--evidence",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning",
+      "--fixtures",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/outside/after-fixtures",
+      "--phase",
+      "after"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "after-containment-matrix.stdout.b64",
+      "bytes": 6751,
+      "sha256": "cb896c6fc3db80ed971f0f821a61729684137e0069c9aa7e2757160fee67224c"
+    },
+    "stderr": {
+      "path": "after-containment-matrix.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "python-compile",
+    "argv": [
+      "python",
+      "-m",
+      "py_compile",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/reference-correction/verify-native-references.py",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/symlink-containment-repair/probe-containment.py"
+    ],
+    "exit": 0,
+    "scope": "Exact local output, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "python-compile.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "python-compile.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-owner-append",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/symlink-containment-repair/receipt-consumer.cljs",
+      "append",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "actual-owner-append.stdout.b64",
+      "bytes": 115,
+      "sha256": "ee0bab0760dfec748daec13836e9874f01fc5ea311d478de3027292c90299cfd"
+    },
+    "stderr": {
+      "path": "actual-owner-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "actual-owner-working-tip",
+    "argv": [
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/bin/node",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/nbb/cli.js",
+      "-cp",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/receipt-owner/src/cljs",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/verification/issue5-full-pure-law-planning/symlink-containment-repair/receipt-consumer.cljs",
+      "file",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/worktree/.\u03b7\u03bc/receipts.edn"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "actual-owner-working-tip.stdout.b64",
+      "bytes": 930,
+      "sha256": "826b469941897e9fc3cb7dffc74ecc12bf1da805d63601d8768ad0342f44f560"
+    },
+    "stderr": {
+      "path": "actual-owner-working-tip.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "reflection-append",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/mycology/sm-log.bb",
+      "--task",
+      "BitchTracker3 resolved transport artifact containment repair",
+      "--efficiency",
+      "0.92",
+      "--friction",
+      "0.09",
+      "--candidate",
+      "0.10",
+      "--receipt-refs",
+      "4dc1dc56ff954ba7b3090170ebf038210306908b1b481db5ce5a19586e446cb5",
+      "--note",
+      "Lexical path containment misses file and directory symlinks. Validate resolved root/artifact and read only that validated path; retain internal-link/root-alias behavior and full transport controls. Fictional external sentinel stayed unchanged, no real host leak or TOCTOU claim. No live event/spore/promotion."
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "reflection-append.stdout.b64",
+      "bytes": 134,
+      "sha256": "e7ed4b542d7f9e25b45ab546e640dc567defbc8f92604c87d7a2ab5923d1fcd6"
+    },
+    "stderr": {
+      "path": "reflection-append.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "reflection-readback",
+    "argv": [
+      "/usr/local/bin/bb",
+      "--config",
+      "/dev/null",
+      "/home/err/.codex/parallel-goal/issues-20261006/Bitch3-symlink-repair-e9a3edb7e2/runtime/mycology/sm-list.bb",
+      "--ledger-only",
+      "--limit",
+      "1"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "reflection-readback.stdout.b64",
+      "bytes": 644,
+      "sha256": "ab223efb430feb8d9558e1680ddba353c42f83f79c932f373c689c337b7bc9fd"
+    },
+    "stderr": {
+      "path": "reflection-readback.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  {
+    "label": "diff-hygiene",
+    "argv": [
+      "git",
+      "diff",
+      "--check",
+      "9c3ab3ea566f1002c4bfee7d16eb2e124ffc3375"
+    ],
+    "exit": 0,
+    "scope": "Exact local stream, canonical one-terminal-LF base64",
+    "stdout": {
+      "path": "diff-hygiene.stdout.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "stderr": {
+      "path": "diff-hygiene.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+]

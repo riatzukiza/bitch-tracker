@@ -1,0 +1,38 @@
+[
+  {
+    "native": "native/bitch1-full.stdout.b64",
+    "existing": "captures/bitch1-full.stdout.b64",
+    "encoded_sha256": "832992f77d3de4c5fb5d8bd9065a949627ae77b009afe09f171acceac463c033",
+    "exact": true
+  },
+  {
+    "native": "native/bitch1-full.stderr.b64",
+    "existing": "captures/bitch1-full.stderr.b64",
+    "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "exact": true
+  },
+  {
+    "native": "native/bitch1-files.stdout.b64",
+    "existing": "captures/bitch1-files.stdout.b64",
+    "encoded_sha256": "f7db295e047477b8e6c95689129783c9c06b759b19093aa82af3f817889ef656",
+    "exact": true
+  },
+  {
+    "native": "native/bitch1-files.stderr.b64",
+    "existing": "captures/bitch1-files.stderr.b64",
+    "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "exact": true
+  },
+  {
+    "native": "native/bitch1-canonical-first.stdout.b64",
+    "existing": "captures/bitch1-canonical-first.stdout.b64",
+    "encoded_sha256": "36af00dd6294b6b9d63855c87308c24e105ee9b87fb38a71c02b8ea5434e6aa6",
+    "exact": true
+  },
+  {
+    "native": "native/bitch1-canonical-first.stderr.b64",
+    "existing": "captures/bitch1-canonical-first.stderr.b64",
+    "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "exact": true
+  }
+]
