@@ -43,3 +43,12 @@
   spore: none
   receipt-refs: 7aeb1d65e0881118d4f776026bf768006762a3cf8db8cdc88b3deb214aaa8999
   note: Require the expected identity set rather than a nonempty/count-only success; preserve full reference fixtures so containment controls still reach their check. Own preparation mistakes retained, no spore/live event or remote action.
+- ts: 2026-10-07T14:50:54.335700247Z
+  session: /home/err/.codex/parallel-goal/bitch3-concept-count-clarification-1eijk2cp/worktree
+  task: Bitch3 additive original-concept-count clarification
+  p-efficiency: 0.86
+  p-friction: 0.15
+  p-skill-candidate: 0.1
+  spore: none
+  receipt-refs: BitchTracker:.ημ/receipts.edn:7,baseline:e66443d66b513ffff475ee298570034680508403
+  note: Count original literal issue bullets separately from grouped design categories. Seven categories cover all eight concepts; coercion/protocol and schema envelopes remain distinct obligations. Historical prose and evidence preserved; README and accountability append only in a new isolated complete source context. Root independent final peer required; no native approval or provider/board operation.

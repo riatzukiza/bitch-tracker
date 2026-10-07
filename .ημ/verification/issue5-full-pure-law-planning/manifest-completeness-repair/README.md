@@ -60,3 +60,23 @@ configuration/event bytes remain unchanged except the checker and append-only
 accountability/index additions. The full immutable proof and publication input
 are sealed outside the source after an ordinary local successor commit. Root alone
 may publish and settle following distinct independent verification.
+
+## Current clarification of the original concept count
+
+The original issue5 Required concepts list contains **eight distinct bullets**.
+The plan organizes them into **seven grouped design categories**, rather than
+seven original requirements. Its seventh category covers both original bullets:
+**pure, domain-agnostic shape coercion and protocol values**, and **Malli (or the
+repository-standard law layer) schemas for event, configuration and socket
+envelopes**. They remain distinct obligations within that shared group; neither
+is omitted or discharged by the other. Earlier references to seven original
+concepts are historical descriptive miscounts, clarified by this additive note.
+
+This clarification preserves all eight original concept obligations, eight
+invariants, seven proof obligations and seven original reaction acceptance
+criteria. All six planning products, four card metadata records and proposed
+13-point breakdown remain unchanged. The transport checker, 23-case matrix,
+original evidence and historical receipt/reflection bytes remain exact. This
+ordinary local successor appends only this note and accountability records; it
+adds no runtime implementation, board transition, provider request, native
+settlement, hosted approval, review round or publication qualification.
