@@ -27,7 +27,13 @@ def verify(root):
             try:
                 if relative.is_absolute() or ".." in relative.parts:
                     raise ValueError("reference leaves evidence root")
-                encoded = artifact.read_bytes()
+                resolved_root = root.resolve()
+                resolved_artifact = artifact.resolve()
+                try:
+                    resolved_artifact.relative_to(resolved_root)
+                except ValueError:
+                    raise ValueError("reference resolves outside evidence root")
+                encoded = resolved_artifact.read_bytes()
                 if not encoded.endswith(b"\n") or encoded.endswith(b"\n\n"):
                     raise ValueError("expected exactly one terminal LF")
                 raw = base64.b64decode(encoded[:-1], validate=True)
