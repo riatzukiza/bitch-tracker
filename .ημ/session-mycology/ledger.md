@@ -16,3 +16,12 @@
   spore: none
   receipt-refs: 3b18ca2f5d00140d72d7eb27138e0b90ed753643f160b186c92200e2812d686b
   note: Read full parent body/all seven files before duplicate decision. Preserve finite reaction3 while proposing whole seven concepts/eight invariants/seven proofs with honest epic decomposition. Native JSON title-level checker mistake retained/corrected; visibility and historical review remain distinct from new admission. No live reflection event, spore or promotion.
+- ts: 2026-10-07T12:35:02.059851231Z
+  session: bitch5-full-reference-correction
+  task: Bitch5 whole planning reference closure and explicit private provenance
+  p-efficiency: 0.84
+  p-friction: 0.22
+  p-skill-candidate: 0.10
+  spore: none
+  receipt-refs: c22c073a0c5bbed1fef8178b02f02232a5707279420d8c64feb1eb39e810b8b0
+  note: All inherited manifests need reachable relative outputs. Restore22safe originals and clearly separate6private retention records from public review inputs without rewriting history or whole issue scope. Own privacy bracket assertion and resumed mkdir mistakes retained/corrected; no live reflection event/spore/promotion.

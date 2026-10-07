@@ -1,0 +1,44 @@
+{
+  "failures": [
+    {
+      "exit": 1,
+      "error": "AssertionError",
+      "cause": "Own privacy regex stops URL at closing bracket, so it cannot include the final bracket of the already withheld placeholder. Native source is safe; checker overstrict at that display boundary.",
+      "old_script_sha256": "006589940c8d4973924aefb0fa362b56da18cee7878a9b5108668db5d587a922",
+      "source_effect": "Only identical missing artifact copies in own NEW worktree before checker stopped; frozen original untouched."
+    },
+    {
+      "exit": 1,
+      "error": "FileExistsError",
+      "cause": "Own resumed preparation mkdir lacked exist_ok; no writes in failed second attempt.",
+      "script_sha256": "912aa22d247fe782dc8f929ec48b8007b7f881afe0a71cdebf2a9497b151d05f"
+    }
+  ],
+  "private_originals": [
+    {
+      "path": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/retained-preparation/failure.json",
+      "bytes": 474,
+      "sha256": "67be26998525a987f201ff78443fd8498d54bb70ec88df09b720500b02b65790",
+      "scope": "external private operator setup, not review input"
+    },
+    {
+      "path": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/retained-preparation/prepare-bitch5-reference-correction-attempt2.py",
+      "bytes": 6577,
+      "sha256": "912aa22d247fe782dc8f929ec48b8007b7f881afe0a71cdebf2a9497b151d05f",
+      "scope": "external private operator setup, not review input"
+    },
+    {
+      "path": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/retained-preparation/failure2.json",
+      "bytes": 230,
+      "sha256": "fc3501af90ad29b60b509f5d182a5828d8e034a5782ec76b72cc95435c951228",
+      "scope": "external private operator setup, not review input"
+    },
+    {
+      "path": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-reference-correction-76e9746217/outside/retained-preparation/prepare-attempt1.py",
+      "bytes": 6550,
+      "sha256": "006589940c8d4973924aefb0fa362b56da18cee7878a9b5108668db5d587a922",
+      "scope": "external private operator setup, not review input"
+    }
+  ],
+  "correction": "Privacy checker recognizes withheld marker before regex terminator; resumed mkdir is explicit. No old source/native/board changes."
+}

@@ -1,0 +1,63 @@
+{
+  "historical_manifest": "../setup-history.json",
+  "historical_manifest_sha256": "4e5acc814a434ad2412a7a1b95c3f777ae40220a68a1167489779877c6345ace",
+  "purpose": "Preserve own failed setup/code/raw stream history; these six entries never assert public review-input availability. Current review inputs are the corrected published outputs. No rewriting of historical manifest.",
+  "records": [
+    {
+      "path": "failure.json",
+      "bytes": 307,
+      "sha256": "4bff32ac91fbe108f35c6a9f3c7949d6a1c80b4df3a5df747ed1f4cad6734201",
+      "original_private_location": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/retained-setup-attempt1/failure.json",
+      "availability": "external private provenance; deliberately NOT a published review input",
+      "byte_scope": "original file/container bytes, not unsanitized network reconstruction"
+    },
+    {
+      "path": "native-help.stdout.b64",
+      "bytes": 3557,
+      "sha256": "b623773c4f426b61d16e8a45c29de3173ceff5cc78422cbf1c54f3df3f2eea20",
+      "original_private_location": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/retained-setup-attempt1/native-help.stdout.b64",
+      "availability": "external private provenance; deliberately NOT a published review input",
+      "byte_scope": "original file/container bytes, not unsanitized network reconstruction",
+      "decoded_bytes": 2667,
+      "decoded_sha256": "fd00e6c7da9b4303f1477b6877316600ee7ff461b49d2c4ea7def9866937e21b"
+    },
+    {
+      "path": "native-help.stderr.b64",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "original_private_location": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/retained-setup-attempt1/native-help.stderr.b64",
+      "availability": "external private provenance; deliberately NOT a published review input",
+      "byte_scope": "original file/container bytes, not unsanitized network reconstruction",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "native-read-bt5-01-pure-reaction-label-state.stderr.b64",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "original_private_location": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/retained-setup-attempt1/native-read-bt5-01-pure-reaction-label-state.stderr.b64",
+      "availability": "external private provenance; deliberately NOT a published review input",
+      "byte_scope": "original file/container bytes, not unsanitized network reconstruction",
+      "decoded_bytes": 0,
+      "decoded_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prepare-attempt1.py",
+      "bytes": 7544,
+      "sha256": "9992825277a7d050e4af0e3060647df04cab8e644d3eb860850d625f4886bec4",
+      "original_private_location": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/retained-setup-attempt1/prepare-attempt1.py",
+      "availability": "external private provenance; deliberately NOT a published review input",
+      "byte_scope": "original file/container bytes, not unsanitized network reconstruction"
+    },
+    {
+      "path": "native-read-bt5-01-pure-reaction-label-state.stdout.b64",
+      "bytes": 10513,
+      "sha256": "5c46689a84ddf6172cb62d5244358cc20d4a0b94762540fee5131adfcff08fb6",
+      "original_private_location": "/home/err/.codex/parallel-goal/issues-20261006/Bitch5-full-laws-planning-3c1e77e101/outside/retained-setup-attempt1/native-read-bt5-01-pure-reaction-label-state.stdout.b64",
+      "availability": "external private provenance; deliberately NOT a published review input",
+      "byte_scope": "original file/container bytes, not unsanitized network reconstruction",
+      "decoded_bytes": 7883,
+      "decoded_sha256": "4753e1578b61344f7af76ac731be91619fc803895abd0dd4829562459ccd8c98"
+    }
+  ]
+}

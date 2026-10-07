@@ -1,0 +1,469 @@
+{
+  "references": [
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/octave-commons-Truth.stdout.b64",
+      "sha256": "110b963151ab926097705aece1039bcbf9ed5f96969ba1ecabb8fc5630c0a9e0",
+      "bytes": 28768
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/octave-commons-Truth.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-Truth.stdout.b64",
+      "sha256": "dda0792bb03ca3ec36dfd95877ec9747f47a0ba06a7e31179e791235eda4f516",
+      "bytes": 3238
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-Truth.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/octave-commons-epiphany.stdout.b64",
+      "sha256": "178f5f9525a0ecadc14a4e24df281c8434e5dde256a97907315463fd844bb26f",
+      "bytes": 3833
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/octave-commons-epiphany.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-epiphany.stdout.b64",
+      "sha256": "6d239f9ffb3c81fb110bad8ac69cd38d690fcf5591495cf15882b05f4bae59ca",
+      "bytes": 1555
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-epiphany.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/octave-commons-bitch-tracker.stdout.b64",
+      "sha256": "9cd36c9acd91718c5ddb723f99d35ff8f6780113a56d85e4751c93c1a01ca873",
+      "bytes": 11872
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/octave-commons-bitch-tracker.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-bitch-tracker.stdout.b64",
+      "sha256": "21bd36fd272d09ecf63f89c92f9f96124d9e4cd0f03981be129bce4c1483277e",
+      "bytes": 1544
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-bitch-tracker.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/open-hax-opencode.stdout.b64",
+      "sha256": "0a6a7f226073292127be866ab09b71f692a9354c8014c42762a8417a5d107ed1",
+      "bytes": 703
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/open-hax-opencode.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-opencode.stdout.b64",
+      "sha256": "0a6a54c7357d0837b673c06fd7c5a45a4a61eedd88ed0a7894174d7e76825333",
+      "bytes": 32319
+    },
+    {
+      "manifest": "native-inventory-manifest.json",
+      "path": "native/riatzukiza-opencode.stderr.b64",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "manifest": "bitch1-full-scope-manifest.json",
+      "path": "native/bitch1-full.stdout.b64",
+      "bytes": 21256,
+      "sha256": "6ddaa8dbb1e00f0c06aa9a1ce010c9fdbbc4a9aa5068f1da6cc1bc8eb8c613f8"
+    },
+    {
+      "manifest": "bitch1-full-scope-manifest.json",
+      "path": "native/bitch1-full.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "bitch1-full-scope-manifest.json",
+      "path": "native/bitch1-files.stdout.b64",
+      "bytes": 30156,
+      "sha256": "31e32d2486dda284b3a253265118902844eda91900ec18d648adef8fc59e5ae3"
+    },
+    {
+      "manifest": "bitch1-full-scope-manifest.json",
+      "path": "native/bitch1-files.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "manifest": "bitch1-canonical-first.json",
+      "path": "native/bitch1-canonical-first.stdout.b64",
+      "bytes": 476,
+      "sha256": "877af09c7a7494db46a39bebe426c5ec7deee5326b66e42f202c940c53ba9a69"
+    },
+    {
+      "manifest": "bitch1-canonical-first.json",
+      "path": "native/bitch1-canonical-first.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "restored": [
+    {
+      "path": "native/octave-commons-Truth.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/octave-commons-Truth.stdout.b64",
+      "bytes": 28768,
+      "sha256": "110b963151ab926097705aece1039bcbf9ed5f96969ba1ecabb8fc5630c0a9e0",
+      "encoded_sha256": "03c4fdee8a29063e47143ba5761a355606c5fdcefa51b4297db9ab67e54a9124",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 38361,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/octave-commons-Truth.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/octave-commons-Truth.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-Truth.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-Truth.stdout.b64",
+      "bytes": 3238,
+      "sha256": "dda0792bb03ca3ec36dfd95877ec9747f47a0ba06a7e31179e791235eda4f516",
+      "encoded_sha256": "a27204a79068ae14558037a0447e3bc98a95a3878c166517c30958b3ca7a7704",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 4321,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-Truth.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-Truth.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/octave-commons-epiphany.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/octave-commons-epiphany.stdout.b64",
+      "bytes": 3833,
+      "sha256": "178f5f9525a0ecadc14a4e24df281c8434e5dde256a97907315463fd844bb26f",
+      "encoded_sha256": "a9b8ce12fbb5f274d018e42befdf9c806cbf7806791d6ff5a19e5946a72e8cb7",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 5113,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/octave-commons-epiphany.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/octave-commons-epiphany.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-epiphany.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-epiphany.stdout.b64",
+      "bytes": 1555,
+      "sha256": "6d239f9ffb3c81fb110bad8ac69cd38d690fcf5591495cf15882b05f4bae59ca",
+      "encoded_sha256": "1ddf4e49bd9215e83530a8d08c2c3dab6096a60d875fbc8fad6af1d20f6984e3",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 2077,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-epiphany.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-epiphany.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/octave-commons-bitch-tracker.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/octave-commons-bitch-tracker.stdout.b64",
+      "bytes": 11872,
+      "sha256": "9cd36c9acd91718c5ddb723f99d35ff8f6780113a56d85e4751c93c1a01ca873",
+      "encoded_sha256": "34b0a2e0b795f8c1fef5ef98de7858cfcfefa240a7c11006fa3ee37f568010b9",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 15833,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/octave-commons-bitch-tracker.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/octave-commons-bitch-tracker.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-bitch-tracker.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-bitch-tracker.stdout.b64",
+      "bytes": 1544,
+      "sha256": "21bd36fd272d09ecf63f89c92f9f96124d9e4cd0f03981be129bce4c1483277e",
+      "encoded_sha256": "f1056a5dfee41ba3b3ce8918fdfb8b8fcdcaf5a3d85dfd50f475949969c35c14",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 2061,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-bitch-tracker.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-bitch-tracker.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/open-hax-opencode.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/open-hax-opencode.stdout.b64",
+      "bytes": 703,
+      "sha256": "0a6a7f226073292127be866ab09b71f692a9354c8014c42762a8417a5d107ed1",
+      "encoded_sha256": "7d63642ef791f3032b3abd2b514d7421ddea3e21ea4f3336fb2362a4136e9116",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 941,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/open-hax-opencode.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/open-hax-opencode.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-opencode.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-opencode.stdout.b64",
+      "bytes": 32319,
+      "sha256": "0a6a54c7357d0837b673c06fd7c5a45a4a61eedd88ed0a7894174d7e76825333",
+      "encoded_sha256": "fd633cf5ea70945c3472693ff36b18c0be02ed3da71c4ebc44d80f08b0369eee",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 43093,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/riatzukiza-opencode.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/riatzukiza-opencode.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/bitch1-full.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/bitch1-full.stdout.b64",
+      "bytes": 21256,
+      "sha256": "6ddaa8dbb1e00f0c06aa9a1ce010c9fdbbc4a9aa5068f1da6cc1bc8eb8c613f8",
+      "encoded_sha256": "832992f77d3de4c5fb5d8bd9065a949627ae77b009afe09f171acceac463c033",
+      "queries": 7,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 28345,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/bitch1-full.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/bitch1-full.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/bitch1-files.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/bitch1-files.stdout.b64",
+      "bytes": 30156,
+      "sha256": "31e32d2486dda284b3a253265118902844eda91900ec18d648adef8fc59e5ae3",
+      "encoded_sha256": "f7db295e047477b8e6c95689129783c9c06b759b19093aa82af3f817889ef656",
+      "queries": 7,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 40209,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/bitch1-files.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/bitch1-files.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/bitch1-canonical-first.stdout.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/bitch1-canonical-first.stdout.b64",
+      "bytes": 476,
+      "sha256": "877af09c7a7494db46a39bebe426c5ec7deee5326b66e42f202c940c53ba9a69",
+      "encoded_sha256": "36af00dd6294b6b9d63855c87308c24e105ee9b87fb38a71c02b8ea5434e6aa6",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 637,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    },
+    {
+      "path": "native/bitch1-canonical-first.stderr.b64",
+      "original_path": "/home/err/.codex/parallel-goal/issues-20261006/four-disjoint-next-4c8731c7fb/native/bitch1-canonical-first.stderr.b64",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "encoded_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "queries": 0,
+      "credential_pattern": false,
+      "source_exists": true,
+      "published_exists": false,
+      "encoded_bytes": 1,
+      "copied_exact_original_encoded": true,
+      "unwithheld_query_urls": 0,
+      "scope": "Exact bytes of originally captured structurally safe GitHub view or canonical status output; not unsanitized native body"
+    }
+  ],
+  "all22hashes_match": true
+}

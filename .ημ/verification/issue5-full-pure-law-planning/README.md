@@ -51,3 +51,16 @@ command/view entries use explicit safe-view versus exact-output scope and strict
 canonical terminal-LF containers. Complete reachable Git/store and diff hygiene
 checks pass; there is no new implementation test/build/provider execution.
 Final immutable full-tip counts and API results live outside the candidate.
+
+
+## Explicit review-input reference closure
+
+The independent pre-publication peer found 22 missing relative native output
+references. Their original safe captures are restored with exact encoded bytes
+and recorded decoded hashes/sizes; all old manifests and selected captures
+remain unchanged. See [reference correction](reference-correction/README.md).
+The six initial setup-retention records explicitly remain external private
+provenance with original locations/raw hashes in its private-retention map;
+they are not asserted to be publicly available review inputs. This ordinary
+successor preserves the entire original whole plan and provides no approval,
+cohort, Ready or implementation qualification.
