@@ -1,7 +1,7 @@
 # Proposed full issue 5 pure-law contract
 
 Planning only. [Issue 5](https://github.com/octave-commons/bitch-tracker/issues/5)
-retains seven concepts, eight invariants and seven proof obligations. Proposed
+retains eight original concept bullets grouped into seven design categories, eight invariants and seven proof obligations. Proposed
 epic `57b9ffc5-75e7-4098-9af8-efc001f60eb0` sums existing reaction (3 points) + dedup (5 points) + watchlist/policy/shape (5 points)
 to 13. Existing reaction UUID `acfa4cdf-a7b4-43d2-a165-eeffff40ce3d` and all its original
 seven criteria/non-goals/Incoming / P2 / 3 points remain unchanged. No new-head approval,

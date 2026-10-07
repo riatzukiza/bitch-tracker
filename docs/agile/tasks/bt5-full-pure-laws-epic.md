@@ -17,7 +17,7 @@ that parent while preserving its original card/note prefixes and metadata.
 
 # Outcome and scope
 
-Review and then implement all seven original concepts as plain Clojure data:
+Review and then implement all eight original concept bullets, grouped into seven design categories, as plain Clojure data:
 normalized add/remove events; stable message/author/reactor/channel/server/emoji
 identity; multi-reactor/multi-emoji label state; watchlist membership/threshold
 transitions; bounded dedup with supplied time/TTL; pure policy; domain-agnostic
@@ -46,7 +46,7 @@ breakdown before implementation, preserving every original requirement.
 7. Threshold crossings and watchlist transitions emit once per state transition.
 8. Unknown/malformed identities or envelopes produce typed data, not JS exceptions.
 
-All seven concepts above and all seven original proof obligations below are
+All eight original concept bullets covered by the seven design categories above and all seven original proof obligations below are
 additional whole-issue obligations; none is waived by a passing child fixture.
 
 # Verification

@@ -4,6 +4,7 @@ import argparse, base64, hashlib, json
 from pathlib import Path
 
 def references(value):
+    """Yield native transport record objects recursively, without board interpretation."""
     if isinstance(value, dict):
         path = value.get("path")
         if isinstance(path, str) and path.startswith("native/"):
@@ -46,6 +47,7 @@ EXPECTED_REFERENCES = {
 }
 
 def verify(root):
+    """Validate the complete expected transport identities, metadata and containment."""
     failures = []
     count = 0
     paths = set()

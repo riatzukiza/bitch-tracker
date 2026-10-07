@@ -1,6 +1,6 @@
 # Full issue 5 planning preparation
 
-This proposal retains all seven original issue concepts, eight invariants and
+This proposal retains all eight original concept bullets grouped into seven design categories, eight invariants and
 seven proofs, plus the original reaction card/note and seven reaction criteria.
 It adds proposed Incoming epic (13 points) and dedup (5 points)/watchlist (5 points) children because the
 complete issue cannot be represented honestly by the finite reaction (3 points) alone.

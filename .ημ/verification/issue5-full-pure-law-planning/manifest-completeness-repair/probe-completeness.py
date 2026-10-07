@@ -6,6 +6,7 @@ from pathlib import Path
 MANIFESTS = {'native-inventory-manifest.json': ['native/octave-commons-Truth.stdout.b64', 'native/octave-commons-Truth.stderr.b64', 'native/riatzukiza-Truth.stdout.b64', 'native/riatzukiza-Truth.stderr.b64', 'native/octave-commons-epiphany.stdout.b64', 'native/octave-commons-epiphany.stderr.b64', 'native/riatzukiza-epiphany.stdout.b64', 'native/riatzukiza-epiphany.stderr.b64', 'native/octave-commons-bitch-tracker.stdout.b64', 'native/octave-commons-bitch-tracker.stderr.b64', 'native/riatzukiza-bitch-tracker.stdout.b64', 'native/riatzukiza-bitch-tracker.stderr.b64', 'native/open-hax-opencode.stdout.b64', 'native/open-hax-opencode.stderr.b64', 'native/riatzukiza-opencode.stdout.b64', 'native/riatzukiza-opencode.stderr.b64'], 'bitch1-full-scope-manifest.json': ['native/bitch1-full.stdout.b64', 'native/bitch1-full.stderr.b64', 'native/bitch1-files.stdout.b64', 'native/bitch1-files.stderr.b64'], 'bitch1-canonical-first.json': ['native/bitch1-canonical-first.stdout.b64', 'native/bitch1-canonical-first.stderr.b64']}
 
 def records(value):
+    """Yield native record objects from the authored transport JSON structure."""
     if isinstance(value, dict):
         if isinstance(value.get("path"), str) and value["path"].startswith("native/"):
             yield value
@@ -14,25 +15,32 @@ def records(value):
         for child in value: yield from records(child)
 
 def main(args):
+    """Exercise actual checker verdicts on complete private positive and hostile inputs."""
     args.fixtures.mkdir(parents=True, exist_ok=False)
     cases=[]
     def copy(name):
+        """Create a complete independently owned fixture without changing evidence."""
         root=args.fixtures/name
         root.mkdir()
         for source in args.evidence.glob("*.json"): shutil.copyfile(source,root/source.name)
         shutil.copytree(args.evidence/"native",root/"native")
         return root
     def edit(root, name, fn):
+        """Apply one named manifest mutation in a private fixture."""
         path=root/name; value=json.loads(path.read_text()); fn(value)
         path.write_text(json.dumps(value))
     def run(name,root,expected,reason=None):
+        """Assert subprocess exit, JSON verdict and optional specific refusal cause."""
         p=subprocess.run([sys.executable,str(args.checker),"--root",str(root)],capture_output=True,text=True,timeout=20)
         v=json.loads(p.stdout)
         assert p.returncode==expected and v["ok"]==(expected==0), (name,p.returncode,v)
         if reason: assert any(reason in str(f.get("error","")) for f in v["failures"]),(name,v)
         cases.append({"case":name,"exit":p.returncode,"expected":expected,"result":v,"stderr":p.stderr})
-    def entries(root,name): return list(records(json.loads((root/name).read_text())))
+    def entries(root,name):
+        """Read transport records from one private fixture manifest."""
+        return list(records(json.loads((root/name).read_text())))
     def omit(value):
+        """Remove only the designated expected reference for the omission control."""
         if isinstance(value,dict):
             for k,v in list(value.items()):
                 if isinstance(v,dict) and v.get("path")=="native/bitch1-full.stdout.b64": del value[k];return True

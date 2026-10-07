@@ -52,3 +52,12 @@
   spore: none
   receipt-refs: BitchTracker:.ημ/receipts.edn:7,baseline:e66443d66b513ffff475ee298570034680508403
   note: Count original literal issue bullets separately from grouped design categories. Seven categories cover all eight concepts; coercion/protocol and schema envelopes remain distinct obligations. Historical prose and evidence preserved; README and accountability append only in a new isolated complete source context. Root independent final peer required; no native approval or provider/board operation.
+- ts: 2026-10-07T16:03:48.018573454Z
+  session: /home/err/.codex/parallel-goal/bitch3-current-review-correction-si7kztph/worktree
+  task: Correct three Bitch3 current full-review findings
+  p-efficiency: 0.9
+  p-friction: 0.15
+  p-skill-candidate: 0.15
+  spore: none
+  receipt-refs: 5444778820
+  note: Complete fixture prerequisites must hold before a negative exit proves containment; direct live count corrections preserve distinct8sourcebullets/7groups and append-only historical evidence. Local11+23controls pass; root owns native publication and settlement.

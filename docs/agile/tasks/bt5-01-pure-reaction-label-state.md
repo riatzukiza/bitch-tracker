@@ -114,7 +114,7 @@ Incoming/P2/3 metadata, original scope/non-goals and history. Its three points
 size the finite reaction law, not the entire issue 5.
 
 The [whole issue 5 design](../notes/issue5-full-pure-laws-plan.md) and proposed
-[epic](bt5-full-pure-laws-epic.md) retain all seven original concepts, eight
+[epic](bt5-full-pure-laws-epic.md) retain all eight original concept bullets grouped into seven design categories, eight
 invariants and seven proofs, including reactions, supplied-time dedup, watchlist
 thresholds, policies, pure shape coercion and all event/config/socket schemas.
 Proposed epic UUID `57b9ffc5-75e7-4098-9af8-efc001f60eb0` totals 13 points: existing reaction 3,
