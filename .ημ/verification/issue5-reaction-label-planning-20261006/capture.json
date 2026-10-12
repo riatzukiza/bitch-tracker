@@ -1,0 +1,15 @@
+{
+  "command": [
+    "env",
+    "-u",
+    "KANBAN_CONFIG",
+    "/home/err/.volta/bin/eta-mu",
+    "kanban",
+    "read-task",
+    "acfa4cdf-a7b4-43d2-a165-eeffff40ce3d"
+  ],
+  "exit": 0,
+  "bytes": 6131,
+  "sha256": "f440f336c6b27e58fa498674c47989dc2a8cf2ce4daaa1f3483c88eaf8f210bd",
+  "stderr_bytes": 0
+}
